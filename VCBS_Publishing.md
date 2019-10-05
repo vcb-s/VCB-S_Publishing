@@ -630,7 +630,7 @@ Link | 文章页面的链接
 |       中文名称 | 英文名称        |
 | -------------: | :-------------- |
 |     千夏字幕组 | Airota          |
-|     喵萌奶茶屋 | Nekomoe kissate |
+|     喵萌奶茶屋 | Nekomoe kissaten |
 | 悠哈璃羽字幕社 | UHA-WINGS       |
 |     诸神字幕组 | Kamigami        |
 |     天香字幕社 | T.H.X           |

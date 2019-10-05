@@ -280,8 +280,8 @@ English Note
     <br><!-- 空行 -->
 
 <!-- 如果种子内含有 Webp 扫图说明就带下面这两行，否则不带 -->
-    本资源扫图格式为 WebP，浏览详情请参见 https://vcb-s.com/archives/7949。<br><!-- 英文紧跟中文不空行 -->
-    Please refer to https://vcb-s.com/archives/7949 if you have trouble viewing WebP images. <br>
+    本资源扫图格式为 WebP，浏览详情请参见 <a href="https://vcb-s.com/archives/7949" target="_blank">https://vcb-s.com/archives/7949</a>。<br><!-- 英文紧跟中文不空行 -->
+    Please refer to <a href="https://vcb-s.com/archives/7949" target="_blank">https://vcb-s.com/archives/7949</a> if you have trouble viewing WebP images. <br>
     <br><!-- 空行 -->
     
 <!-- 然后跟教程，注意 MP4 版本不贴进阶教程 -->

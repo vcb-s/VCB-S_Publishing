@@ -259,7 +259,7 @@ English Note
 如果是 **`新番`**，接下来带这一段：
 
 ```html
-<p>><!-- 首先制作成员感谢，小体积版不带 -->
+<p><!-- 首先制作成员感谢，小体积版不带 -->
     感谢所有参与制作者 / Thank to our participating members: <br>
     总监 / Script: XXX <br>
     压制 / Encode: XXX <br>

@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿# VCB-Studio 发布流程及操作参考
+# VCB-Studio 发布流程及操作参考
 
 VCB-Studio 工作流程如下：
 

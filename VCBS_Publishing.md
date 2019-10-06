@@ -44,7 +44,7 @@ CD: XXXX@XXXX[xxxx.com]
 [/quote]
 
 [quote]
-这里填写所有参与本项目的制作人员。冒号使用全角符号。格式如下：
+这里填写所有参与本项目的制作人员，以总监提供的版本为准。冒号使用全角符号。格式如下：
 总监 / Script：XXX
 压制 / Encode：XXX
 整理 / Collate：XXX

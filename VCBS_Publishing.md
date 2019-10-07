@@ -365,6 +365,7 @@ Open <https://nyaa.si> and login as our team account, and then click `Upload` fr
 Fill **`Infomation`** with `https://vcb-s.com/archives/138`
 
 Check **`Complete`** if this is a complete series
+
 Check **`Remake`** <u>only if</u> you would like to explicitly acknowledge that this work is derived from another release on nyaa. You do not need to check this box for reseeded series
 
 Then fill **`Description`**. The easiest way to generate the markdown doc is using an html->markdown online convertor. Just feed the html code you have finished on BANGUMI.MOE and then modify the output to match the format specified below. Note that you still need to include collaboration acknowledgement, making comments and WebP note as the same for BANGUMI.MOE.

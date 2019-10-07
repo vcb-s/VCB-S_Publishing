@@ -91,7 +91,7 @@ CD: XXXX@XXXX[xxxx.com]
 
 ## 2nd Call = U2.DMHY.ORG 发布
 
-2nd call 即 U2 发布，目前一般安排于 1st Call 一天之后，且不晚于公网发布时间，具体根据实际情况进行调整。
+2nd call 即 U2 发布，目前一般安排于 1st Call 一天之后，且不晚于公网发布时间，具体根据实际情况进行调整。U2 只发布高清版本，如同时有 1080p MKV，1080p MP4 和 720p MP4，只发 MKV 版本。
 
 发布 U2 需要使用 LP 的公车号登陆并打开 <https://u2.dmhy.org/upload.php> ，确认处于 **`直接发布`** 模式，然后开始填写页面：
 
@@ -297,7 +297,7 @@ English Note
     Source________________________________________________Encode <br>
     <!-- 这里两对图只是例子 -->
     <a href="http://img.2222.moe/images/2018/07/03/3768.png"><img src="http://img.2222.moe/images/2018/07/03/3768s.png"></a> <a href="http://img.2222.moe/images/2018/07/03/3768v.png"><img src="http://img.2222.moe/images/2018/07/03/3768s.png"></a><br>
-    <br>
+    <br><!-- 每组截图之间空行 -->
     <a href="http://img.2222.moe/images/2018/07/03/6647.png"><img src="http://img.2222.moe/images/2018/07/03/6647s.png"></a> <a href="http://img.2222.moe/images/2018/07/03/6647v.png"><img src="http://img.2222.moe/images/2018/07/03/6647s.png"></a><br>
     ...
 </p>

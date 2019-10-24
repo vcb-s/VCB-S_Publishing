@@ -420,7 +420,7 @@ CD: XXXX@XXXX
 <!-- attach the following two lines where applicable -->
 Please be mindful of long paths in this torrent to avoid download error.
 
-Please refer to https://vcb-s.com.archives/7949 if you have trouble viewing WebP images. 
+Please refer to https://vcb-s.com/archives/7949 if you have trouble viewing WebP images. 
 
 ***
 

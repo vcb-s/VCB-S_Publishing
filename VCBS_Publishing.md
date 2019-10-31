@@ -179,7 +179,7 @@ English Note
 
 ## Last Call = 公网发布
 
-公网发布一般安排于 U2 发布至少半天之后，但同样根据实际情况可以特殊安排。目前可以通过 r21 来观测当前组内做种人数，来判断是否已经可以发布公网。发布任务不忙的时候建议 U2 与公网间隔一天左右的时间。公网发布时间一般为北京时间 12:00 至 18:00 之间。
+公网发布一般安排于 U2 发布至少半天之后，但同样根据实际情况可以特殊安排。目前可以通过 r21 来观测当前组内做种人数来判断是否已经可以发布公网，一般来说在发布公网时对应分流组应有至少 90% 的组员做种。发布任务不忙的时候建议 U2 与公网间隔一天左右的时间。公网发布时间一般为北京时间 12:00 至 18:00 之间。
 
 公网发布环节需要手动发布两个站点，包括 BANGUMI.MOE（推送 SHARE.DMHY.ORG / ACG.RIP / ACGNX.SE / SHARE.ACGNX.SE）和 NYAA.SI。
 
@@ -192,14 +192,14 @@ English Note
 `标题` | 格式： `[组名] ENGLISH / 中文 / 日本語 位深 分辨率 编码 类型 [标注]`
 --: | :--
 `组名` | 与种子保持一致，但合作组名用**中文**
-`ENGLISH` | 如实填写
-`中文` | 如实填写
+`ENGLISH` | 如实填写，如需标注季度请跟在番名之后，参考原著名称和通用译法或使用 `S3` `Ⅲ` 等方法标注
+`中文` | 如实填写，如需标注季度请跟在番名之后，参考原著名称和通用译法或使用 `第三季` `Ⅲ` 等方法标注
 `日本語` | 如实填写，如果英文和日文太长可以不要日文
 `位深` | `10-bit`, `8-bit` ...
 `分辨率` | `1080p`, `720p` ...
 `编码` | `HEVC`, `AVC`, `AVC/HEVC` ...
 `类型` | `BDRip`, `DVDRip` ...
-`标注` | `Fin` 普通完整季度的高画质版本 <br> `MP4 Ver` MP4 移动版本 <br> `Reseed Fin` 普通完整季度的高画质版本 <br> `S1-S3 + OVA Fin` 如果需要注明季度**只**标注在这里 <br> `S1-S2 Reseed Fin` 重发同理 <br> 发布时根据情况灵活使用标注，如 `Movies Fin` `OVA Fin` `Kamigami Ver` `先行版`
+`标注` | `Fin` 普通完整季度的高画质版本 <br> `MP4 Ver` MP4 移动版本 <br> `Reseed Fin` 普通完整季度的高画质版本 <br> `S1-S3 + OVA Fin` 如果需要注明多季度合集**只**标注在这里 <br> `S1-S2 Reseed Fin` 重发同理 <br> 发布时根据情况灵活使用标注，如 `Movies Fin` `OVA Fin` `Kamigami Ver` `先行版`<br>标题中有多种标注时用 `+` 隔开，左右空格 `S1-S3 + SP + MOVIE Fin`
 
 **`标签`** 会在填写标题时自动生成，注意检查没有包含不正确的标签，尤其是复制修改的时候。
 
@@ -227,7 +227,7 @@ English Note
     <!-- 例 1 -->中文 / ENGLISH / 日本語 BDRip <br>
     <!-- 例 2 -->中文 / ENGLISH / 日本語 S1-3 BDRip MP4 Ver <br>
     <!-- 例 3 -->中文 / ENGLISH / 日本語 BDRip MP4 Ver <br>
-    <!-- 例 4 -->中文 / ENGLISH / 日本語 S1+S2+OVA BDRip Reseed <br>
+    <!-- 例 4 -->中文 / ENGLISH / 日本語 S1 + S2 + OVA BDRip Reseed <br>
     <!-- 如果名字太长，分别成行 -->
     中文 S2 BDRip <br>
     ENGLISH S2 BDRip <br>
@@ -271,8 +271,8 @@ English Note
 <!-- 然后是来源感谢，小体积版不带 -->
     感谢所有资源提供者 / Thank to all resource providers: <br>
     BD: XXXX@XXXX... <br>
-    VVCL-1017 HR: XXXX@XXXX... <br>
-    LACA-9546~7: XXXX@XXXX... +HR: XXXX +Scans: XXXX ... <br>
+    SCAN: XXXX@XXXX... <br>
+    CD: XXXX@XXXX...  <br>
     <br><!-- 空行 -->
 </p>
 <hr>
@@ -345,18 +345,18 @@ English Note
 
 NYAA.SI is in English, and so is our torrent info.
 
-Open <https://nyaa.si> and login as our team account, and then click `Upload` from the top bar. Now, fill **`Torrent display name`** and choose **`Category`**:
+Open <https://nyaa.si> and login using the team account, then click `Upload` from the top bar. Fill **`Torrent display name`** and choose **`Category`**:
 
 `Name` | format: `[GRP] ENG / JPN DEP RES ENC TYP [TAG]`
 --: | :--
 `GRP` | same as what is in torrent name, but use **English** names for collaboration groups
-`ENG` | fill as it is
+`ENG` | fill as it is, refer to the original title and common usage when marking the season, use markers like `S3` and `Ⅲ`
 `JPN` | fill as it is, omit if English name is too long
 `DEP` | `10-bit`, `8-bit` ...
 `RES` | `1080p`, `720p` ...
 `ENC` | `HEVC`, `AVC`, `AVC/HEVC` ...
 `TYPE` | `BDRip`, `DVDRip` ...
-`TAG` | `Fin` regular Hi-Quality complete series <br> `MP4 Ver` MP4 portable <br> `Reseed Fin` regular Hi-Quality reseeded complete series <br> `S1-S3 + OVA Fin` if required **only** mark season info like here <br> `S1-S2 Reseed Fin` similar to reseed <br> change tags flexibly: `Movies Fin` `OVA Fin` `Kamigami Ver` `Early Release`
+`TAG` | `Fin` regular Hi-Quality complete series <br> `MP4 Ver` MP4 portable <br> `Reseed Fin` regular Hi-Quality reseeded complete series <br> `S1-S3 + OVA Fin` if necessary,  **only** mark multi-season info here <br> `S1-S2 Reseed Fin` similar to reseed <br> change tags flexibly: `Movies Fin` `OVA Fin` `Kamigami Ver` `Early Release`
 
 `Category` | condition
 --: | :--
@@ -368,11 +368,11 @@ Fill **`Infomation`** with `https://vcb-s.com/archives/138`
 
 Check **`Complete`** if this is a complete series
 
-Check **`Remake`** <u>only if</u> you would like to explicitly acknowledge that this work is derived from another release on nyaa. You do not need to check this box for reseeded series
+Check **`Remake`** <u>only if</u> you would like to explicitly acknowledge that this work is derived from another release on nyaa. Do not check this box for reseeded series
 
-Then fill **`Description`**. The easiest way to generate the markdown doc is using an html->markdown online convertor. Just feed the html code you have finished on BANGUMI.MOE and then modify the output to match the format specified below. Note that you still need to include collaboration acknowledgement, making comments and WebP note as the same for BANGUMI.MOE.
+Then fill **`Description`**. The easiest way to generate the markdown doc is using an html->markdown online convertor. Just feed the html code you have finished on BANGUMI.MOE and then modify the output to match the format specified below. Note that you still need to include collaboration acknowledgement, making comments and WebP note as the same for BANGUMI.MOE
 
-The main body is similar to that on BANGUMI.MOE but without Chinese and with English punctuations. Please note that  you do need to delete the descriptors in <!--> as they will show up as visible contents. 
+The main body is similar to that on BANGUMI.MOE but without Chinese and with English punctuations. Please note that  you do need to delete the descriptors in <!--> as they will show up as visible contents
 
 ```markdown
 
@@ -382,7 +382,7 @@ The main body is similar to that on BANGUMI.MOE but without Chinese and with Eng
 <!-- place titles -->
 <!-- if names are short, put them in one row -->
 English / 日本語 S1 BDRip
-<!-- or if the names are too long, put them in dedicated rows -->
+<!-- or if the names are too long, put them in separate rows -->
 English OVA BDRip
 日本語 OVA BDRip
 <!-- place the video specs immediately following the titles -->
@@ -579,7 +579,7 @@ https://nyaa.si/view/xxxxxxx
 
 [box style="download"]
 10-bit 1080p AVC
-<!-- 用 `del` 按钮划掉旧链接，如果遇到度盘链接可以直接删除 -->
+<!-- 用 `del` 按钮划掉旧链接，如果遇到度盘链接或 720p 链接可以直接删除 -->
 <del><a href="https://bangumi.moe/torrent/xxxxxxxx" rel="noopener" target="_blank">https://bangumi.moe/torrent/xxxxxxxx</a></del>
 
 <del><a href="https://www.acgnx.se/show-xxxxxx.html" rel="noopener" target="_blank">https://www.acgnx.se/show-xxxxxx.html</a></del>
@@ -596,7 +596,7 @@ Image Credit: <a href="http://xxxxx" rel="noopener" target="_blank">who</a>
 ```
 
 完成正文后来到页面右侧：\
-**`发布时间`**：新番直接选择 **`立即发布`** 即可，使用旧页面重发的 Reseed 需要改为当前时间 \
+**`发布时间`**：新番直接选择 **`立即发布`** 即可，使用旧页面重发的 Reseed 需要改为当前北京时间 \
 **`分类目录`**：务必勾选 **`作品项目`**，然后根据分辨率如实选择，为演唱会项目额外选择 **`音乐/专题`** \
 **`标签`**：不用管 \
 **`特色图片`**：这个即是主站海报图，上传使用之前准备的 1400px 宽度海报图 \
@@ -619,9 +619,9 @@ Reseed 项目可能合并了主站上其它多个页面的内容。 \
 
 项目 | 内容
 --: | :--
-UID | 格式为 **YY+MM+NN**，其中 NN 是当月**公网**发布的序号。Reseed 序号单独排列，并在 NO 前面加上 RS
+UID | 格式为 **YY+MM+NO**，其中 NO 是当月**公网**发布的序号。Reseed 项目序号单独排列，并在 NO 前面加上 `RS`
 Romanji Title / 项目名 | 照抄文章标题，使用 ALT+ENTER 在单元格内换行
-Info | 项目性质，例如 TV, TV(S1-3), MOVIE, Reseed 项目加标 RS
+Info | 项目性质，例如 `TV`, `TV(S1-3)`, `MOVIE`, Reseed 项目加标 `RS`
 Link | 文章页面的链接
 
 至此整个发布流程完成。
@@ -642,7 +642,7 @@ Link | 文章页面的链接
 |       茉语星梦 | MakariHoshiyume |
 |       风之圣殿 | FZSD            |
 |     白恋字幕组 | Shirokoi        |
-
+|     SweetSub | SweetSub       |
 
 
 

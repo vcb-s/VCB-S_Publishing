@@ -357,7 +357,7 @@ Open <https://nyaa.si> and login using the team account, then click `Upload` fro
 `Name` | format: `[GRP] ENG / JPN DEP RES ENC TYP [TAG]`
 --: | :--
 `GRP` | same as what is in torrent name, but use **English** names for collaboration groups
-`ENG` | fill as it is, refer to the original title and common usage when marking the season, use markers like `S3` and `Ⅲ`
+`ENG` | fill as it is, refer to BANGUMI.MOE for naming standards
 `JPN` | fill as it is, omit if English name is too long
 `DEP` | `10-bit`, `8-bit` ...
 `RES` | `1080p`, `720p` ...

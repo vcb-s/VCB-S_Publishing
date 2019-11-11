@@ -107,7 +107,7 @@ CD: XXXX@XXXX[xxxx.com]
 `来源` | 根据实际情况填 `BDRip` 或 `DVDRip`
 `分辨率` | 根据实际情况填 `1080p`、`720p` 等
 `集/卷` | 按照示例填写，如 `TV 01-12 Fin`、`MOVIE`、`S1+S2+OVA Fin`
-`编码` | 如实填写，如 `HEVC Ma10p FLAC AAC MKV`、`AVC Hi10p FLAC MKV` 
+`编码` | 如实填写，如 `HEVC Ma10p FLAC AAC MKV`、`AVC Hi10p FLAC MKV` <br> 如遇到 YUV 4:4:4 编码则将 Ma10p 替换为 `Ma444-10p`
 `附加标签` | 对应种子名称中的组标，如果有合作字幕组用其中文
 `副标题` | 如果是重发，写一个 Reseed，此外随意吐槽
 `海报图片` | 粘贴已经上传至图床的 800px 海报图链接

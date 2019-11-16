@@ -434,6 +434,7 @@ Please refer to https://vcb-s.com/archives/7949 if you have trouble viewing WebP
 Comparison (right click on the image and open it in a new tab to see the full-size one)  
 Source ________________________________________________ Encode
 [![](http://img.2222.moe/images/YYYY/MM/DD/1234s.png)](http://img.2222.moe/images/YYYY/MM/DD/1234.png) [![](http://img.2222.moe/images/YYYY/MM/DD/1234s.png)](http://img.2222.moe/images/YYYY/MM/DD/1234v.png)
+<!-- Break between links -->
 [![](http://img.2222.moe/images/YYYY/MM/DD/1234s.png)](http://img.2222.moe/images/YYYY/MM/DD/1234.png) [![](http://img.2222.moe/images/YYYY/MM/DD/1234s.png)](http://img.2222.moe/images/YYYY/MM/DD/1234v.png)
 
 ```

@@ -24,7 +24,7 @@
 | 轻微 / 适当 / 较强 | (adj.) Mild / Moderate / Strong |
 | 算法               | Algorithm                       |
 
-<b name="f1">1</b> Plane 一般搭配前置定义词，例如色度平面 Chroma plane；单独的平面可以说 Flat area。[↩](#a1)
+<b name="f1">1</b> Plane 一般搭配前置定义词，例如色度平面 Chroma plane；单独的平面可以说 Flat area。
 
 | 瑕疵                | Artifacts                     |
 | ------------------- | ----------------------------- |
@@ -49,7 +49,7 @@
 | 点状斑纹            | Dot-crawl                     |
 | 过度柔化            | Over blurring                 |
 
-<b name="f2">2</b> 作为画风特点的噪点是 Grain，作为瑕疵的噪点是 Noise，不确定时可统一使用 Noise。[↩](#a2)
+<b name="f2">2</b> 作为画风特点的噪点是 Grain，作为瑕疵的噪点是 Noise，不确定时可统一使用 Noise。
 
 
 

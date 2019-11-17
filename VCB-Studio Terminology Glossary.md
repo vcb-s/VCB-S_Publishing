@@ -15,7 +15,7 @@
 | 线条               | Line / Line-art                 |
 | 纹理               | Texture                         |
 | 暗场               | Dark area                       |
-| 平面               | Plane / Flat area[^2]           |
+| 平面               | Plane / Flat area<sup name="a1">[1](#f1)</sup>          |
 | 码率               | Bit-rates                       |
 | 参数               | Parameters                      |
 | 还原度             | Revivification                  |
@@ -24,7 +24,7 @@
 | 轻微 / 适当 / 较强 | (adj.) Mild / Moderate / Strong |
 | 算法               | Algorithm                       |
 
-[^2]: Plane 一般搭配前置定义词，例如色度平面 Chroma plane；单独的平面可以说 Flat area。
+<b name="f1">1</b> Plane 一般搭配前置定义词，例如色度平面 Chroma plane；单独的平面可以说 Flat area。[↩](#a1)
 
 | 瑕疵                | Artifacts                     |
 | ------------------- | ----------------------------- |
@@ -32,7 +32,7 @@
 | 锯齿                | Aliasing                      |
 | 晕轮 / 振铃         | Ringing / Haloing             |
 | 色块                | Blocking / MacroBlock         |
-| 噪点                | Noise / Grain[^1]             |
+| 噪点                | Noise / Grain<sup name="a1">[2](#f1)</sup>             |
 | 彩色噪点 / 色度噪点 | Chroma noise / grain          |
 | 烂边 / 蚊噪         | DCT ringing  / DCT noise      |
 | 拉丝 / 横纹 / 交错  | Interlacing                   |
@@ -49,7 +49,7 @@
 | 点状斑纹            | Dot-crawl                     |
 | 过度柔化            | Over blurring                 |
 
-[^1]: 作为画风特点的噪点是 Grain，作为瑕疵的噪点是 Noise，不确定时可统一使用 Noise。
+<b name="f1">2</b> 作为画风特点的噪点是 Grain，作为瑕疵的噪点是 Noise，不确定时可统一使用 Noise。[↩](#a1)
 
 
 

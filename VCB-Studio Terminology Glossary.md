@@ -32,7 +32,7 @@
 | 锯齿                | Aliasing                      |
 | 晕轮 / 振铃         | Ringing / Haloing             |
 | 色块                | Blocking / MacroBlock         |
-| 噪点                | Noise / Grain<sup name="a1">[2](#f1)</sup>             |
+| 噪点                | Noise / Grain<sup name="a1">[2](#f2)</sup>             |
 | 彩色噪点 / 色度噪点 | Chroma noise / grain          |
 | 烂边 / 蚊噪         | DCT ringing  / DCT noise      |
 | 拉丝 / 横纹 / 交错  | Interlacing                   |
@@ -49,7 +49,7 @@
 | 点状斑纹            | Dot-crawl                     |
 | 过度柔化            | Over blurring                 |
 
-<b name="f1">2</b> 作为画风特点的噪点是 Grain，作为瑕疵的噪点是 Noise，不确定时可统一使用 Noise。[↩](#a1)
+<b name="f2">2</b> 作为画风特点的噪点是 Grain，作为瑕疵的噪点是 Noise，不确定时可统一使用 Noise。[↩](#a2)
 
 
 

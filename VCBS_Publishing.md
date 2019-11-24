@@ -162,6 +162,14 @@ Copy English comments from previous torrents
 English Note
 [/quote]
 
+[quote=感谢所有参与制作者/Thanks_to_our_participating_members]
+这里粘贴所有参与制作的组员名称列表，只有一种样式，会在 R21 提供。
+[/quote]
+
+[quote=感谢所有资源提供者/Thanks_to_all_resource_providers]
+粘贴原种的感谢内容（如果有），如果 reseed 有新的资源提供者也加在这里。如果都没有则不带这一段。
+[/quote]
+
 [spoiler=mediainfo][mediainfo]
 这里粘贴一个被修改的视频文件的媒体信息（如有），否则从旧种子复制过来（如有）。
 将其中的文件路径改成形如 "D:\SAYA IS ∞ LOLICON!\[VCB-Studio]..."
@@ -334,6 +342,21 @@ English Note
     <br><!-- 空行 -->
 </p>
 <hr>
+<p>
+    感谢所有参与制作者 / Thank to our participating members: <br>
+    整理 / Collate: XXX <br>
+    复查 / QC: XXX <br>
+    ... <br>
+    <br><!-- 空行 -->
+
+<!-- 写法参照 U2 reseed，如果没有资源提供者则不带 -->
+    感谢所有资源提供者 / Thank to all resource providers: <br>
+    BD: XXXX@XXXX... <br>
+    SCAN: XXXX@XXXX... <br>
+    CD: XXXX@XXXX...  <br>
+    <br><!-- 空行 -->
+</p>
+<hr>
 <p><!-- 然后是重发计划说明 -->
     这份发布来自 VCB-Studio 每月老番重发计划。 <br>
     我们计划在每月月中和月末，重发 VCB-Studio 曾经发布过的合集。选择的合集有这些特点： <br>
@@ -457,6 +480,19 @@ Reseed comment:
 
 1. XXXXXXXXXX;
 2. XXXXXXXXXXXX;
+
+***
+
+Thanks to our participating members:
+Collate: XXX
+QC: XXX
+...
+Seed: Seeding members of VCB-Studio CDN (refer to our website for full list)
+
+Thanks to all resource providers:
+BD: XXXX@XXXX...
+Scans: XXXX@XXXX
+CD: XXXX@XXXX
 
 ***
 

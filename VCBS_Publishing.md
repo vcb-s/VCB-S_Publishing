@@ -48,7 +48,7 @@ CD: XXXX@XXXX[xxxx.com]
 总监 / Script：XXX
 压制 / Encode：XXX
 整理 / Collate：XXX
-复查 / QC：XXX, XXX
+复查 / QC：XXX, XXX <!-- 默认包括总监复查，除非另有要求 -->
 发布 / Upload：XXX
 分流 / Seed：VCB-Studio CDN 分流成员（详细名单见主站）
 [/quote]

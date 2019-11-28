@@ -231,8 +231,8 @@ English Note
 
 现在开始填写正文，无论什么情况都会有接下来这个 **`主体段`**。点击 `<>`，将下面框内的代码复制进去，然后进行编辑和增减。
 
-注1：`<!-->` 内的文字为解释说明，不会出现在正文中
-注2：如果本月有开坑计划，招人计划等，请在海报图后、正文前添加，格式可以参考以前的发布
+注1：`<!-->` 内的文字为解释说明，不会出现在正文中  
+注2：如果本月有开坑计划，招人计划等，请在海报图后、正文前添加，格式可以参考以前的发布  
 注3: 请保留教程中每一部分的 `<p></p>` 标签。这些标签起到分隔不同内容板块的作用  
 注4: 不论何时，复制粘贴时请注意换行的问题（尤其是截图之间的空行）  
 注5: 不要在可视化界面下编辑，可能会产生各种意料之外的问题。如果不小心做了修改，请在代码或纯文本编辑界面下清空内容重新复制模板代码（如果不知道怎么修复的话）
@@ -428,10 +428,10 @@ English OVA BDRip
 <!-- place the video specs immediately following the titles -->
 10-bit 1080p HEVC + FLAC + AAC, MKV format. ~ 1.1 GB / EP.
 8-bit 720p HEVC + AAC, MP4 format. ~ 250 MB / EP.
-<!-- if there is PGS, point it out -->Official ENG + JPN PGS.<br>
-<!-- if there are embedded audio track or external MKA files, point it out -->Embedded commentary audio track. MKA contains FLAC 5.1 + Headphone X.<br>
+<!-- if there is PGS, point it out -->Official ENG + JPN PGS.
+<!-- if there are embedded audio track or external MKA files, point it out -->Embedded commentary audio track. MKA contains FLAC 5.1 + Headphone X.
 
-This project is in cooperation with <strong>English Group Name</strong>. Thanks to them for elaborating Chinese subtitles.<br>
+This project is in cooperation with **English Group Name**. Thanks to them for elaborating Chinese subtitles.
 
 This anime ............ XXXXXXXXXXXX...
 pp: ............ XXXXXXXXXXXXX ...

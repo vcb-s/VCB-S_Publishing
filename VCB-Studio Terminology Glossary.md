@@ -20,10 +20,12 @@
 | 平面               | Plane / Flat area<sup name="a1">[1](#f1)</sup>          |
 | 码率               | Bit-rates                       |
 | 参数               | Parameters                      |
-| 还原度             | Revivification                  |
+| 还原度             | Visual similarity               |
 | 压制               | Encoding                        |
 | 原生分辨率         | Native resolution               |
-| 轻微 / 适当 / 较强 | (adj.) Mild / Moderate / Strong |
+| 轻微               | (adj.) Mild / Slight / A bit   |
+| 适当               | (adj.) Some / Moderate         |
+| 较强               | (adj.) Significant / Strong    |
 | 算法               | Algorithm                       |
 
 <b name="f1">1</b> Plane 一般搭配前置定义词，例如色度平面 Chroma plane；单独的平面可以说 Flat area。
@@ -87,5 +89,5 @@
 | 过度锐化       | Over sharpening                                |
 | 拉升（分辨率） | Upscaling                                      |
 | 可还原式拉升   | Revertible upscaling                           |
-| 缩回（分辨率） | Downscaling                                    |
-| 还原 – 再重构  | Downscaling and reconstruction                 |
+| 缩回（分辨率） | Descaling                                      |
+| 还原 – 再重构  | Descaling and reconstruction                   |

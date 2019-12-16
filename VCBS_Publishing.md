@@ -209,7 +209,7 @@ English Note
 `分辨率` | `1080p`, `720p` ...
 `编码` | `HEVC`, `AVC`, `AVC/HEVC` ...
 `类型` | `BDRip`, `DVDRip` ...
-`标注` | `Fin` 普通完整季度的高画质版本 <br> `MP4 Ver` MP4 移动版本 <br> `Reseed Fin` 普通完整季度的高画质版本 <br> `S1-S3 + OVA Fin` 如果需要注明多季度合集**只**标注在这里 <br> `S1-S2 Reseed Fin` 重发同理 <br> 发布时根据情况灵活使用标注，如 `Movies Fin` `OVA Fin` `Kamigami Ver` `先行版`<br>标题中有多种标注时用 `+` 隔开，左右空格 `S1-S3 + SP + MOVIE Fin`
+`标注` | `Fin` 普通完整季度的高画质版本 <br> `MP4 Ver` MP4 移动版本 <br> `Reseed Fin` 普通完整季度的高画质版本 <br> `S1-S3 + OVA Fin` 如果需要注明多季度合集**只**标注在这里 <br> `S1-S2 Reseed Fin` 重发同理 <br> 发布时根据情况灵活使用标注，如 `MOVIE Fin` `OVA Fin` `Kamigami Ver` `先行版`<br>标注内嵌字幕信息时使用全大写的 `CHS` `CHT`，双语字幕 `CHS&JPN`<br>标题中有多种标注时用 `+` 隔开，左右空格 `S1-S3 + SP + MOVIE Fin`
 
 在填写非单季番的 `番名` 时，如果：
 
@@ -261,7 +261,7 @@ English Note
     <!-- 例 3 -->8-bit 720p HEVC + AAC，MP4 格式。每话约 250 MB。<br>
     <!-- 如果有内封或内嵌字幕，应该指出 -->内封原盘 ENG + JPN 字幕。<br>
     <!-- 如果有内封、内嵌或外挂音轨，应该指出 -->内封评论音轨，外挂 FLAC 5.1 + Headphone X。<br>
-    <!-- 注意区分使用 内封 和 内嵌。内封指内挂在视频文件内的信息内容，可以提取出来；内嵌则不可提取。一般 MKV 内的字幕和音轨都为内封，MP4 内为内嵌 -->
+    <!-- 注意区分使用 内封 和 内嵌。内封指挂载在视频文件内的信息内容，可以提取出来；内嵌则一般不可提取。多数情况下 MKV 内的字幕和音轨都为内封，MP4 内为内嵌 -->
     <br><!-- 空行 -->
 
     <!-- 首先感谢合作字幕组（如有）（文字仅供参考） -->
@@ -429,8 +429,8 @@ English OVA BDRip
 <!-- place the video specs immediately following the titles -->
 10-bit 1080p HEVC + FLAC + AAC, MKV format. ~ 1.1 GB / EP.
 8-bit 720p HEVC + AAC, MP4 format. ~ 250 MB / EP.
-<!-- if there is PGS, point it out -->Official ENG + JPN PGS.
-<!-- if there are embedded audio track or external MKA files, point it out -->Embedded commentary audio track. MKA contains FLAC 5.1 + Headphone X.
+<!-- if there are PGS, point them out -->Official ENG + JPN PGS.
+<!-- if there are embedded audio tracks or external MKA files, point them out -->Embedded commentary audio track. MKA contains FLAC 5.1 + Headphone X.
 
 This project is in cooperation with **English Group Name**. Thanks to them for elaborating Chinese subtitles.
 
@@ -560,7 +560,7 @@ https://nyaa.si/view/xxxxxxx
 
 然后填写 **`正文`**：
 
-记得删除所有 <!--> 及其中间的内容，不然会造成行间距过大的问题。
+复制粘贴模板时需要删除 <!--> 及其中间的内容，不然会造成行间距过大的问题。
 
 ```html
 
@@ -577,8 +577,8 @@ https://nyaa.si/view/xxxxxxx
 <!-- 例 1 -->10-bit 1080p AVC + FLAC，MKV 格式。约 650 MB 一集。
 <!-- 例 2 -->10-bit 1080p HEVC + FLAC + AAC，MKV 格式。每话约 1.1 GB。
 <!-- 多版本都要写上 -->8-bit 720p HEVC + AAC，MP4 格式。每话约 250 MB。
-<!-- 如果有内嵌字幕，应该指出 -->内封原盘 ENG + JPN 字幕。
-<!-- 如果有内封或外挂音轨，应该指出 -->内封评论音轨。外挂 FLAC 5.1 + Headphone X。
+<!-- 如果有内封或内嵌字幕，应该指出 -->内封原盘 ENG + JPN 字幕。
+<!-- 如果有内封、内嵌或外挂音轨，应该指出 -->内封评论音轨。外挂 FLAC 5.1 + Headphone X。
 
 <!-- 可选的发布吐槽也可以在这里 -->
 好想看到会动的瑠衣酱 XXXXXXXXX ...

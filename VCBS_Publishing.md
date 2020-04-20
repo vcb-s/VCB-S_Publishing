@@ -10,7 +10,7 @@ VCB-Studio 工作流程如下：
 复查 |   |   |   | X | X |   |   |
 发布 |   |   |   |   | X |   | X | X 
 
-本文为表中发布所参与的步骤提供参考。下文中的格式与表达仅作为参考，根据每个发布任务的情况可以做适当地增减和更改，以让观众能够准确且容易地理解内容信息。
+本文为表中发布所参与的步骤提供参考。下文中的格式与表达仅作为参考，根据每个发布任务的情况可以做适当的增减和更改，以让观众能够准确且容易地理解内容信息。
 
 
 
@@ -44,7 +44,7 @@ CD: XXXX@XXXX[xxxx.com]
 [/quote]
 
 [quote]
-这里填写所有参与本项目的制作人员，以总监提供的版本为准。冒号使用全角符号。格式如下：
+这里填写所有参与本项目的制作人员，以 Trello 上的版本为准。冒号使用全角符号。格式如下：
 总监 / Script：XXX
 压制 / Encode：XXX
 整理 / Collate：XXX
@@ -103,7 +103,7 @@ CD: XXXX@XXXX[xxxx.com]
 --: | :--
 `种子文件` | 点击 `Choose File` 上传种子文件
 `类型` | 根据实际情况选 `BDRip` 或 `DVDRip`
-`中文标题` | 如实填写，可以照抄 jsum，也可以参考百度百科，萌娘百科等网站的译名 
+`中文标题` | 如实填写，可以照抄 jsum，也可以参考百度百科，Bangumi 番组计划等网站的译名 
 `英文标题` | 如实填写，只填写罗马音标题，英语外来语请转换成英语
 `官方标题` | 如实填写，可以照抄 jsum，注意官方标题中的汉字使用
 `来源` | 根据实际情况填 `BDRip` 或 `DVDRip`
@@ -127,6 +127,8 @@ Thanks to [b]English Group Name[/b] for elaborating Chinese subtitles.
 
 中文吐槽
 English Comment
+
+队员吐槽（如有）
 [/quote]
 
 [quote=感谢所有参与制作者/Thanks_to_our_participating_members]
@@ -180,9 +182,10 @@ English Note
 
 成功发布之后在种子页面的顶端 **流量优惠** 一栏里点击 **`人工优惠`**，然后点击 **`[原创压制]所有者2X上传，全局50%下载`**。
 
-没有问题后，在分流组通知 2nd call / U2 已发，不需要 @全体成员。U2 自动下载的种子可以删除，请勿外传。
+没有问题后，在分流组通知 2nd call / U2 已发，不需要 @全体成员。U2 自动下载的种子可以删除，**请勿外传**。
 
-如果发布的内容打包了之前季度或者取代了之前的种子，则应该在 U2 上删除这样的旧种。
+如果发布的内容打包了之前季度或者取代了之前的种子，则应该在 U2 上删除这样的旧种。如果旧种的发布者不是本组成员，可以使用公车号用 PM 的方式请求对方回收旧种。
+
 如果有人报错，立即在发布群通知。
 
 ---
@@ -218,7 +221,9 @@ English Note
 3. 番名无变化，在番名之后空格，然后使用 `第三季` / `S3` / `Season 3` 等方式标注季度，末尾不再加标季度 tag；
 4. 是多季度合集，使用第一季的番名，末尾加标季度 tag。
 
-**`标签`** 会在填写标题时自动生成，注意检查没有包含不正确的标签，尤其是复制修改的时候。
+由于 BANGUMI.MOE 对标题长度的限制，一些超长番名的项目需要使用简写标题。目前的解决方法是在 BANGUMI.MOE 填写简称，在成功同步之后再手动登陆各个站点将标题改回正常标题。
+
+**`标签`** 会在填写标题时自动生成，注意检查有没有包含不正确的标签，尤其是复制修改的时候。
 
 然后选择 **`类别`**：
 
@@ -234,8 +239,8 @@ English Note
 注1：`<!-->` 内的文字为解释说明，不会出现在正文中  
 注2：如果本月有开坑计划，招人计划等，请在海报图后、正文前添加，格式可以参考以前的发布  
 注3: 请保留教程中每一部分的 `<p></p>` 标签。这些标签起到分隔不同内容板块的作用  
-注4: 不论何时，复制粘贴时请注意换行的问题（尤其是截图之间的空行）  
-注5: 不要在可视化界面下编辑，可能会产生各种意料之外的问题。如果不小心做了修改，请在代码或纯文本编辑界面下清空内容重新复制模板代码（如果不知道怎么修复的话）
+注4: 无论何时，复制粘贴时请注意换行的问题（尤其是截图之间的空行）  
+注5: 不要在可视化界面下编辑，可能会产生各种意料之外的问题。如果不小心做了修改，请在代码或纯文本编辑界面下清空内容重新复制模板代码
 
 ```html
 <p><!-- 整个主体段都在一个 <p></p> 内，段中没有 <hr>，断行请用 <br> = Ctrl/Shift + Enter -->
@@ -300,7 +305,7 @@ English Note
     <br><!-- 空行 -->
 </p>
 <hr>
-<p><!-- 如果项目文件名过长，请带下面两行提示，一般情况下不需要带 -->
+<p><!-- 如果项目标题或文件名过长，请带下面两行提示，一般情况下不需要带 -->
     本项目文件名较长，下载时请注意存放路径，以免发生无法下载的情况。<br><!-- 英文紧跟中文不空行 -->
     Please be mindful of long paths in this torrent to avoid download error. <br>
     <br><!-- 空行 -->
@@ -409,9 +414,9 @@ Check **`Complete`** if this is a complete series
 
 Check **`Remake`** <u>only if</u> you would like to explicitly acknowledge that this work is derived from another release on nyaa. Do not check this box for reseeded series
 
-Then fill **`Description`**. The easiest way to generate the markdown doc is using an html->markdown online convertor. Just feed the html code you have finished on BANGUMI.MOE and then modify the output to match the format specified below. Note that you still need to include collaboration acknowledgement, making comments and WebP note as the same for BANGUMI.MOE
+Then fill **`Description`**. The easiest way to generate the markdown doc is using an html->markdown online convertor. Just paste the html code you have finished on BANGUMI.MOE and then modify the output to match the format specified below. Note that you still need to include collaboration acknowledgement, making comments and WebP note as the same for BANGUMI.MOE
 
-The main body is similar to that on BANGUMI.MOE but without Chinese and with English punctuations. Please note that  you do need to delete the descriptors in <!--> as they will show up as visible contents
+The main body is similar to that on BANGUMI.MOE but without Chinese and with English punctuations. Please note that  you DO need to delete the descriptors in <!--> as they will show up as visible contents
 
 Again, remember to change all punctuation marks into English ones.
 
@@ -693,6 +698,8 @@ UID | 格式为 **YY+MM+NO**，其中 NO 是当月**公网**发布的序号。Re
 Romanji Title / 项目名 | 照抄文章标题，使用 ALT+ENTER 在单元格内换行
 Info | 项目性质，例如 `TV`, `TV(S1-3)`, `MOVIE`, Reseed 项目加标 `RS`
 Link | 文章页面的链接
+
+Trello 任务卡的操作由发布组组长负责，不作为常规发布流程，因此不包括在本规范内。
 
 至此整个发布流程完成。
 

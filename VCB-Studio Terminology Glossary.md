@@ -20,7 +20,7 @@
 | 平面               | Plane / Flat area<sup name="a1">[1](#f1)</sup>          |
 | 码率               | Bit-rates                       |
 | 参数               | Parameters                      |
-| 还原度             | Visual similarity               |
+| 还原度             | High quality (bitrate)<sup name="a2">[2](#f2)</sup>   / Visual similarity / Revivification               |
 | 压制               | Encoding                        |
 | 原生分辨率         | Native resolution               |
 | 轻微               | (adj.) Mild / Slight / A bit   |
@@ -29,6 +29,8 @@
 | 算法               | Algorithm                       |
 
 <b name="f1">1</b> Plane 一般搭配前置定义词，例如色度平面 Chroma plane；单独的平面可以说 Flat area。
+
+<b name="f2">2</b> 根据 LP 的解释，压制上的高还原度有约定俗成的表达方式 High quality 或者 High bitrate，其他语境再单独考虑。
 
 ------
 

@@ -27,6 +27,8 @@
 | 适当               | (adj.) Some / Moderate         |
 | 较强               | (adj.) Significant / Strong    |
 | 算法               | Algorithm                       |
+| 屏幕字字幕               | Forced subtitle                       |
+| 无障碍音轨               | Audio description                       |
 
 <b name="f1">1</b> Plane 一般搭配前置定义词，例如色度平面 Chroma plane；单独的平面可以说 Flat area。
 

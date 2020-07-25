@@ -40,7 +40,7 @@ VCB-Studio 工作流程如下：
 这里填写整理组提供的来源列表。如需要，请将格式简化为形如
 BD: XXXX@XXXX
 Scan: {XXXX, XXXX, XXXX}@XXXX
-CD: XXXX@XXXX[xxxx.com]
+CD: XXXX@XXXX(xxxx.com, xxxx.com) <!-- 注意放流者链接已由中括号改为小括号，因为 acg.rip 处理超链接时无法识别两个连续的中括号 -->
 [/quote]
 
 [quote]
@@ -58,6 +58,8 @@ CD: XXXX@XXXX[xxxx.com]
 将其中的文件路径改成形如 "D:\SAYA IS ∞ LOLICON!\[VCB-Studio]..."
 [/code]
 ```
+根据 TSDM 论坛方面的建议，所有 TSDM 的资源都需要将域名改为 `tsdm39.net`，例如将 `https://www.tsdm.live/forum.php` 改为 `https://www.tsdm39.net/forum.php`。请在发布前留意检查。
+
 接下来在 `类型` 里给该任务分配分流组，`质量` 一栏为选填内容，可以忽略，`内容` 选择 `公网[允许公网tracker]`，然后勾选 `匿名发布`。检查无误后点击 `发布`。
 
 成功发布后在分流组以 @全体成员 的方式通知任务，同时使用自动下载的种子进行一段时间的初始做种。当有其他分流组员下载完成并开始做种时便可停止。
@@ -315,6 +317,11 @@ English Note
     Please refer to <a href="https://vcb-s.com/archives/7949" target="_blank">https://vcb-s.com/archives/7949</a> if you have trouble viewing WebP images. <br>
     <br><!-- 空行 -->
     
+<!-- 如果种子内含有 TSDM 合购区的资源就带下面这两行，否则不带 -->
+    有关 TSDM 合购区的详情请参见 <a href="https://www.tsdm39.net/forum.php?mod=viewthread&amp;tid=879923">https://www.tsdm39.net/forum.php?mod=viewthread&amp;tid=879923</a>。<br><!-- 英文紧跟中文不空行 -->
+    Please refer to <a href="https://www.tsdm39.net/forum.php?mod=viewthread&amp;tid=879923">https://www.tsdm39.net/forum.php?mod=viewthread&amp;tid=879923</a> for more  informaion about jointly purchased music.<br>
+    <br><!-- 空行 -->
+    
 <!-- 然后跟教程，注意 MP4 版本不贴进阶教程 -->
     基础播放器教程： <a href="https://vcb-s.com/archives/4384" target="_blank">PotPlayer</a> / <a href="https://vcb-s.com/archives/4407" target="_blank">MPC-HC</a> / <a href="https://vcb-s.com/archives/7159" target="_blank">IINA</a><br>
     进阶播放器教程： <a href="https://vcb-s.com/archives/5610" target="_blank">madVR</a> / <a href="https://vcb-s.com/archives/7228" target="_blank">PotPlayer+madVR</a> / <a href="https://vcb-s.com/archives/7594" target="_blank">mpv</a><br>
@@ -408,6 +415,8 @@ Open <https://nyaa.si> and login using the team account, then click `Upload` fro
 `Anime - Non-English-translated` | if no English PGS but Chinese ASS
 `Anime - Raw` | otherwise
 
+If a project contains both official English PGS and external Chinese subtitles, select `Anime - English-translated`
+
 Fill **`Infomation`** with `https://vcb-s.com/archives/138`
 
 Check **`Complete`** if this is a complete series
@@ -467,6 +476,8 @@ CD: XXXX@XXXX
 Please be mindful of long paths in this torrent to avoid download error.
 
 Please refer to https://vcb-s.com/archives/7949 if you have trouble viewing WebP images. 
+
+Please refer to https://www.tsdm39.net/forum.php?mod=viewthread&tid=879923 for more informaion about jointly purchased music.
 
 ***
 

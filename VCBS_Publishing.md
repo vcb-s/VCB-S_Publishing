@@ -444,7 +444,7 @@ English OVA BDRip
 10-bit 1080p HEVC + FLAC + AAC, MKV format. ~ 1.1 GB / EP.
 8-bit 720p HEVC + AAC, MP4 format. ~ 250 MB / EP.
 <!-- if there are PGS, point them out -->Official ENG + JPN PGS.
-<!-- if there are embedded audio tracks or external MKA files, point them out -->Embedded commentary audio track. MKA contains FLAC 5.1 + Headphone X.
+<!-- if there are embedded audio tracks or external MKA files, point them out -->Embedded audio commentary track. MKA contains FLAC 5.1 + Headphone X.
 
 This project is in cooperation with **English Group Name**. Thanks to them for elaborating Chinese subtitles.
 

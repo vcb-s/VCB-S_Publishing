@@ -680,8 +680,10 @@ https://nyaa.si/view/xxxxxxx
 <!-- 最后，如果题图采用了有名有姓的大触插画，在这里标注来源 -->
 Image Credit: <a href="http://xxxxx" rel="noopener" target="_blank">who</a>
 
-<!-- 考虑到部分观众的需求，现在每个项目的 MediaInfo 也以折叠的形式带在发布页的最下方 -->
-<details><summary><font size="3">MediaInfo</summary></font>此处粘贴 R21 上提供的 MediaInfo</details>
+<!-- 考虑到部分观众的需求，现在每个项目的 MediaInfo 也以折叠的形式带在发布页的最下方。此处特地感谢 inori@网站组 提供的模板 -->
+<label for="medie-info-switch" class="btn btn-inverse-primary" title="展开MediaInfo">MediaInfo</label>
+<!-- 这里空一行 -->
+<pre class="js-medie-info-detail medie-info-detail" style="display: none;">此处粘贴 R21 上提供的 MediaInfo</pre>
 ```
 
 完成正文后来到页面右侧：\

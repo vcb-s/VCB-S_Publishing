@@ -319,7 +319,7 @@ English Note
     
 <!-- 如果种子内含有 TSDM 合购区的资源就带下面这两行，否则不带 -->
     有关 TSDM 合购区的详情请参见 <a href="https://www.tsdm39.net/forum.php?mod=viewthread&amp;tid=879923">https://www.tsdm39.net/forum.php?mod=viewthread&amp;tid=879923</a>。<br><!-- 英文紧跟中文不空行 -->
-    Please refer to <a href="https://www.tsdm39.net/forum.php?mod=viewthread&amp;tid=879923">https://www.tsdm39.net/forum.php?mod=viewthread&amp;tid=879923</a> for more  informaion about jointly purchased music.<br>
+    Please refer to <a href="https://www.tsdm39.net/forum.php?mod=viewthread&amp;tid=879923">https://www.tsdm39.net/forum.php?mod=viewthread&amp;tid=879923</a> for more  information about jointly purchased music.<br>
     <br><!-- 空行 -->
     
 <!-- 然后跟教程，注意 MP4 版本不贴进阶教程 -->

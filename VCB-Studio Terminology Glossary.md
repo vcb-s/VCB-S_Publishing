@@ -40,7 +40,7 @@
 | ------------------- | ----------------------------- |
 | 色带                | Banding / Colour banding      |
 | 锯齿                | Aliasing                      |
-| 晕轮 / 振铃         | Ringing / Haloing             |
+| 晕轮 / 振铃         | Haloing / Ringing             |
 | 色块                | Blocking / MacroBlock         |
 | 噪点                | Noise / Grain<sup name="a1">[2](#f2)</sup>             |
 | 彩色噪点 / 色度噪点 | Chroma noise / grain          |
@@ -50,7 +50,6 @@
 | 鬼影                | Blending / Ghosting           |
 | 颜色越界            | (Chroma) Overflow / Underflow |
 | 色度色带            | Chroma banding                |
-| 色度噪点            | Chroma noise / grain          |
 | 色度锯齿            | Chroma aliasing               |
 | 色度偏移            | Chroma shift                  |
 | 色度溢出            | Chroma bleeding               |

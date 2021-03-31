@@ -50,7 +50,8 @@
 | 鬼影                | Blending / Ghosting           |
 | 颜色越界            | (Chroma) Overflow / Underflow |
 | 色度色带            | Chroma banding                |
-| 色度锯齿            | Chroma noise / grain          |
+| 色度噪点            | Chroma noise / grain          |
+| 色度锯齿            | Chroma aliasing               |
 | 色度偏移            | Chroma shift                  |
 | 色度溢出            | Chroma bleeding               |
 | 重复场              | Duplicate field               |
@@ -59,7 +60,7 @@
 | 点状斑纹            | Dot-crawl                     |
 | 过度柔化            | Over blurring                 |
 
-<b name="f2">2</b> 作为画风特点的噪点是 Grain，作为瑕疵的噪点是 Noise，不确定时可统一使用 Noise。
+<b name="f2">2</b> 作为画风特点的噪点是 Grain，一般颗粒度较大；作为瑕疵的噪点是 Noise，不确定时可统一使用 Noise。
 
 ------
 

@@ -14,11 +14,11 @@
 | ------------------ | ------------------------------- |
 | 原盘               | Original source                 |
 | 画风               | Image style                     |
-| 线条               | Line / Line-art                 |
+| 线条               | Line / Line art                 |
+| 平面               | Flat area<sup name="a1">[1](#f1)</sup>          |
 | 纹理               | Texture                         |
 | 暗场               | Dark area                       |
-| 平面               | Plane / Flat area<sup name="a1">[1](#f1)</sup>          |
-| 码率               | Bit-rates                       |
+| 码率               | Bit-rate                        |
 | 参数               | Parameters                      |
 | 还原度             | High quality (bitrate)<sup name="a2">[2](#f2)</sup>   / Visual similarity / Revivification               |
 | 压制               | Encoding                        |
@@ -30,7 +30,8 @@
 | 屏幕字字幕               | Forced subtitle                       |
 | 无障碍音轨               | Audio description                       |
 
-<b name="f1">1</b> Plane 一般搭配前置定义词，例如色度平面 Chroma plane；单独的平面可以说 Flat area。
+<b name="f1">1</b> 这里的平面指一幅图像中在空间上变化比较缓和的部分，如大块的填充色，与线条相对；
+如果是视频格式里的所谓平面，则是 plane，例如亮度平面 luma plane，色度平面（有两个）chroma planes；
 
 <b name="f2">2</b> 根据 LP 的解释，压制上的高还原度有约定俗成的表达方式 High quality 或者 High bitrate，其他语境再单独考虑。
 
@@ -43,7 +44,7 @@
 | 晕轮 / 振铃         | Haloing / Ringing             |
 | 色块                | Blocking / MacroBlock         |
 | 噪点                | Noise / Grain<sup name="a1">[2](#f2)</sup>             |
-| 彩色噪点 / 色度噪点 | Chroma noise / grain          |
+| 彩色噪点 / 色度噪点 | Chroma noise / chroma grain    |
 | 烂边 / 蚊噪         | DCT ringing  / DCT noise      |
 | 拉丝 / 横纹 / 交错  | Interlacing                   |
 | 缟缟                | Combing                       |
@@ -69,8 +70,8 @@
 | 抗锯齿         | Anti-aliasing                                  |
 | 去晕轮         | De-ringing / De-haloing                        |
 | 去色块         | De-blocking                                    |
-| 降噪           | De-noising / De-grain                          |
-| 反交错         | De-interlacing                                 |
+| 降噪           | Denoising / Degrain                          |
+| 反交错         | Deinterlacing                                 |
 | 场匹配         | Field-matching                                 |
 | 反交卷过带     | Inverse Telecine (IVTC)                        |
 | 去缟缟         | De-combing                                     |

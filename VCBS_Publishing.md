@@ -16,13 +16,13 @@ VCB-Studio 工作流程如下：
 
 ## 1st Call
 
-在项目完成制作阶段后，需要分发成品至分流组并做显式通知。这个步骤称为 1st Call。具体操作上，总监或整理组会提供种子和度盘成品给发布组，然后由总监、整理组或发布员任意一人首先将种子发布至内部 PT 站 R21.3333.MOE，再在分流组以 @全体成员 的方式通知 1st Call。通知中需要注明 R21 的种子下载链接以及度盘链接。目前一共有 A、B、C 三个分流组，原则上按顺序分配任务，除非遇到项目文件容量严重不平衡或其他特殊的情况。任何时候如果出现需要换种的情况应立即在分流组以 @全体成员 的方式通知暂停下载或做种。
+在项目完成制作阶段后，需要分发成品至分流组并做显式通知。这个步骤称为 1st Call。具体操作上，总监或整理组会提供种子和度盘成品给发布组，然后由总监、整理组或发布员任意一人首先将种子发布至内部 PT 站 rzi.xeonse.com，再在分流组以 @全体成员 的方式通知 1st Call。通知中需要注明 R21 的种子下载链接以及度盘链接。目前一共有 A、B、C 三个分流组，原则上按顺序分配任务，除非遇到项目文件容量严重不平衡或其他特殊的情况。任何时候如果出现需要换种的情况应立即在分流组以 @全体成员 的方式通知暂停下载或做种。
 
-1st Call 之后的各个环节都是发布员独自全权负责了，包括 **对外发布前的准备工作**、~~**2nd Call / U2 发布**、~~**last call / 公网发布** 以及 **主站更新**。发布员可以再对种子和成品文件做简单检查，然后根据个人时间和最近分流组的负载情况来安排 2nd / Last 的时间。
+1st Call 之后的各个环节都是发布员独自全权负责了，包括 **对外发布前的准备工作**、~~**2nd Call / U2 发布**、~~**last call / 公网发布** 以及 **主站更新**。发布员可以再对种子和成品文件做简单检查，然后根据个人时间和最近分流组的负载情况来安排 Last call 的时间。
 
 ## 1st Call = VCB-S 内部 PT 站点 r21.3333.moe 发布
 
-在将任务上传至 r21 之前，发布员应在本地或盒子里存放一份完整的成品。发布需要使用发布员自己的 r21 账号登陆并打开<https://r21.3333.moe/upload.php>，然后开始填写页面：
+在将任务上传至 r21 之前，发布员应在本地或盒子里存放一份完整的成品。发布需要使用发布员自己的 r21 账号登陆并打开<https://rzi.xeonse.com/upload.php>，然后开始填写页面：
 
 条目 | 内容
 --: | :--
@@ -43,16 +43,6 @@ Scan: {XXXX, XXXX, XXXX}@XXXX
 CD: XXXX@XXXX(xxxx.com, xxxx.com) <!-- 注意放流者链接已由中括号改为小括号，因为 acg.rip 处理超链接时无法识别两个连续的中括号 -->
 [/quote]
 
-[quote]
-这里填写所有参与本项目的制作人员，以 Trello 上的版本为准。冒号使用全角符号。格式如下：
-总监 / Script：XXX
-压制 / Encode：XXX
-整理 / Collate：XXX
-复查 / QC：XXX, XXX <!-- 默认包括总监复查，除非另有要求 -->
-发布 / Upload：XXX
-分流 / Seed：VCB-Studio CDN 分流成员（详细名单见主站）
-[/quote]
-
 [code]
 这里粘贴使用 mediainfo 得到的主要成品文件的媒体信息，一般是随意选择一集正片。
 将其中的文件路径改成形如 "D:\SAYA IS ∞ LOLICON!\[VCB-Studio]..."
@@ -64,15 +54,13 @@ CD: XXXX@XXXX(xxxx.com, xxxx.com) <!-- 注意放流者链接已由中括号改�
 
 成功发布后在分流组以 @全体成员 的方式通知任务，同时使用自动下载的种子进行一段时间的初始做种。当有其他分流组员下载完成并开始做种时便可停止。
 
-注意 `复查` 一栏默认同时署名整理复查和总监复查，除非另有要求。
-
 ---
 
 ## 对外发布前的准备工作
 
-发布员需要在 2nd call 前收集到下列内容：
+发布员需要在 last call 前收集到下列内容：
 
-1. 从 <https://r21.3333.moe/torrents.php> 上对应的种子页面点击 `下载种子[原始文件]` 取得公网种子
+1. 从 <https://rzi.xeonse.com/torrents.php> 上对应的种子页面点击 `下载种子[原始文件]` 取得公网种子，请注意检查公网种子名没有 [R21] 标识，并且不含 r21 密钥。
 2. 主要成品的 mediainfo \
     a. 如果是单纯的新片或重发，随意选择一集正片 \
     b. 如果是新片打包旧片的合集，选择新片部分的随意一集正片 \
@@ -95,7 +83,7 @@ CD: XXXX@XXXX(xxxx.com, xxxx.com) <!-- 注意放流者链接已由中括号改�
 
 ---
 
-## ~~2nd Call = U2.DMHY.ORG 发布~~（即日起所有 VCB-Studio 的项目不再在 U2 发布）
+## ~~2nd Call = U2.DMHY.ORG 发布~~（所有 VCB-Studio 的项目不再在 U2 发布）
 
 2nd call 即 U2 发布，目前一般安排于 1st Call 一天之后，且不晚于公网发布时间，具体根据实际情况进行调整。U2 只发布高清版本，如同时有 1080p MKV，1080p MP4 和 720p MP4，只发 MKV 版本。
 
@@ -194,7 +182,9 @@ English Note
 
 ## Last Call = 公网发布
 
-公网发布一般安排于 U2 发布至少十二小时之后，但同样根据实际情况可以特殊安排。目前可以通过 r21 来观测当前组内做种人数来判断是否已经可以发布公网，一般来说在发布公网时对应分流组应有至少 90% 的组员做种。发布任务不忙的时候尽量间隔一个自然日左右的时间。公网发布时间一般为北京时间 12:00 至 18:00 之间。
+公网发布一般安排于 1st call 至少十二小时之后，但同样根据实际情况可以特殊安排。目前可以通过 r21 来观测当前组内做种人数来判断是否已经可以发布公网，一般来说在发布公网时对应分流组应有至少 90% 的组员做种。发布任务不忙的时候尽量间隔一个自然日左右的时间。公网发布时间一般为北京时间 12:00 至 18:00 之间。
+
+公网发布之前请前往 Trello 将自己添加进对应的项目卡片，并将状态改为 `发布中`。
 
 公网发布环节需要手动发布两个站点，包括 BANGUMI.MOE（推送 SHARE.DMHY.ORG / ACG.RIP / ACGNX.SE / SHARE.ACGNX.SE）和 NYAA.SI。
 
@@ -225,7 +215,7 @@ English Note
 
 由于 BANGUMI.MOE 对标题长度的限制，一些超长番名的项目需要使用简写标题。目前的解决方法是在 BANGUMI.MOE 填写简称，在成功同步之后再手动登陆各个站点将标题改回正常标题。
 
-**`标签`** 会在填写标题时自动生成，注意检查有没有包含不正确的标签，尤其是复制修改的时候。
+**`标签`** 会在填写标题时自动生成，注意检查有没有包含不正确的标签，尤其是复制修改标题的时候。
 
 然后选择 **`类别`**：
 
@@ -277,7 +267,7 @@ English Note
     This project is in cooperation with <strong>English Group Name</strong>. Thanks to them for elaborating Chinese subtitles.<br>
     <br><!-- 空行 -->
 
-    <!-- 总监吐槽，但是只带在高画质版本 -->
+    <!-- 总监吐槽，只带在高画质版本 -->
     画质 XXXXXXXXXXXX...<br><!-- 确保行间是 <br> -->
     处理上 XXXXXXXXXX...<br>
     <!-- 英文紧跟中文不空行，但是如果中英文都是多段式的可以根据情况进行调整 -->
@@ -292,14 +282,7 @@ English Note
 如果是 **`新番`**，接下来带这一段：
 
 ```html
-<p><!-- 首先制作成员感谢，小体积版不带 -->
-    感谢所有参与制作者 / Thank to our participating members: <br>
-    总监 / Script: XXX <br>
-    压制 / Encode: XXX <br>
-    ... <br>
-    <br><!-- 空行 -->
-
-<!-- 然后是来源感谢，小体积版不带 -->
+<p><!-- 首先是来源感谢，小体积版不带 -->
     感谢所有资源提供者 / Thank to all resource providers: <br>
     BD: XXXX@XXXX... <br>
     SCAN: XXXX@XXXX... <br>
@@ -312,12 +295,12 @@ English Note
     Please be mindful of long paths in this torrent to avoid download error. <br>
     <br><!-- 空行 -->
 
-<!-- 如果种子内含有 Webp 扫图说明就带下面这两行，否则不带 -->
+<!-- 如果种子内含有 Webp 扫图说明需要带下面这两行，可以默认携带 -->
     本资源扫图格式为 WebP，浏览详情请参见 <a href="https://vcb-s.com/archives/7949" target="_blank">https://vcb-s.com/archives/7949</a>。<br><!-- 英文紧跟中文不空行 -->
     Please refer to <a href="https://vcb-s.com/archives/7949" target="_blank">https://vcb-s.com/archives/7949</a> if you have trouble viewing WebP images. <br>
     <br><!-- 空行 -->
     
-<!-- 如果种子内含有 TSDM 合购区的资源就带下面这两行，否则不带 -->
+<!-- 如果种子内含有 TSDM 合购区的资源需要带下面这两行，可以默认携带 -->
     有关 TSDM 合购区的详情请参见 <a href="https://www.tsdm39.net/forum.php?mod=viewthread&amp;tid=879923">https://www.tsdm39.net/forum.php?mod=viewthread&amp;tid=879923</a>。<br><!-- 英文紧跟中文不空行 -->
     Please refer to <a href="https://www.tsdm39.net/forum.php?mod=viewthread&amp;tid=879923">https://www.tsdm39.net/forum.php?mod=viewthread&amp;tid=879923</a> for more  information about jointly purchased music.<br>
     <br><!-- 空行 -->
@@ -325,8 +308,8 @@ English Note
 <!-- 然后跟教程，注意 MP4 版本不贴进阶教程 -->
     基础播放器教程： <a href="https://vcb-s.com/archives/4384" target="_blank">PotPlayer</a> / <a href="https://vcb-s.com/archives/4407" target="_blank">MPC-HC</a> / <a href="https://vcb-s.com/archives/7159" target="_blank">IINA</a><br>
     进阶播放器教程： <a href="https://vcb-s.com/archives/5610" target="_blank">madVR</a> / <a href="https://vcb-s.com/archives/7228" target="_blank">PotPlayer+madVR</a> / <a href="https://vcb-s.com/archives/7594" target="_blank">mpv</a><br>
-    中文字幕分享区： <a href="http://bbs.vcb-s.com/forum-37-1.html" target="_blank">VCB-Studio 分享论坛</a>（请善用搜索）<br>
-    项目计划与列表： <a href="https://vcb-s.com/archives/138" target="_blank">VCB-Studio 项目列表</a>（每月初更新）<br>
+    中文字幕分享区： <a href="https://bbs.acgrip.com/" target="_blank">Anime 分享论坛</a>（请善用搜索）<br>
+    项目计划与列表： <a href="https://docs.google.com/spreadsheets/d/1mEqjCEHe0D_8bPkpcuuECxGZva-jSg3Z3Sc0u3tpZns/edit?usp=sharing" target="_blank">VCB-Studio 项目列表</a>（每月初更新）<br>
     <br><!-- 空行 -->
 </p>
 <hr>
@@ -356,13 +339,7 @@ English Note
 </p>
 <hr>
 <p>
-    感谢所有参与制作者 / Thank to our participating members: <br>
-    整理 / Collate: XXX <br>
-    复查 / QC: XXX <br>
-    ... <br>
-    <br><!-- 空行 -->
-
-<!-- 写法参照 U2 reseed，如果没有资源提供者则不带 -->
+    <!-- 写法参照 U2 reseed，如果没有资源提供者则不带 -->
     感谢所有资源提供者 / Thank to all resource providers: <br>
     BD: XXXX@XXXX... <br>
     SCAN: XXXX@XXXX... <br>
@@ -383,8 +360,8 @@ English Note
 <p><!-- 最后是教程 -->
     基础播放器教程： <a href="https://vcb-s.com/archives/4384" target="_blank">PotPlayer</a> / <a href="https://vcb-s.com/archives/4407" target="_blank">MPC-HC</a> / <a href="https://vcb-s.com/archives/7159" target="_blank">IINA</a><br>
     进阶播放器教程： <a href="https://vcb-s.com/archives/5610" target="_blank">madVR</a> / <a href="https://vcb-s.com/archives/7228" target="_blank">PotPlayer+madVR</a> / <a href="https://vcb-s.com/archives/7594" target="_blank">mpv</a><br>
-    中文字幕分享区： <a href="http://bbs.vcb-s.com/forum-37-1.html" target="_blank">VCB-Studio 分享论坛</a>（请善用搜索）<br>
-    项目计划与列表： <a href="https://vcb-s.com/archives/138" target="_blank">VCB-Studio 项目列表</a>（每月初更新）
+    中文字幕分享区： <a href="https://bbs.acgrip.com/" target="_blank">Anime 分享论坛</a>（请善用搜索）<br>
+    项目计划与列表： <a href="https://docs.google.com/spreadsheets/d/1mEqjCEHe0D_8bPkpcuuECxGZva-jSg3Z3Sc0u3tpZns/edit?usp=sharing" target="_blank">VCB-Studio 项目列表</a>（每月初更新）
 </p>
 ```
 
@@ -417,7 +394,7 @@ Open <https://nyaa.si> and login using the team account, then click `Upload` fro
 
 If a project contains both official English PGS and external Chinese subtitles, select `Anime - English-translated`
 
-Fill **`Infomation`** with `https://vcb-s.com/archives/138`
+Fill **`Infomation`** with `https://docs.google.com/spreadsheets/d/1mEqjCEHe0D_8bPkpcuuECxGZva-jSg3Z3Sc0u3tpZns/edit?usp=sharing`
 
 Check **`Complete`** if this is a complete series
 
@@ -459,12 +436,6 @@ Then if this is a new project and  Hi-Quality ver, append the below part:
 
 ```markdown
 
-Thanks to our participating members:
-Script: XXX
-Encode: XXX
-...
-Seed: Seeding members of VCB-Studio CDN (refer to our website for full list)
-
 Thanks to all resource providers:
 BD: XXXX@XXXX...
 Scans: XXXX@XXXX
@@ -499,12 +470,6 @@ Reseed comment:
 2. XXXXXXXXXXXX;
 
 ***
-
-Thanks to our participating members:
-Collate: XXX
-QC: XXX
-...
-Seed: Seeding members of VCB-Studio CDN (refer to our website for full list)
 
 Thanks to all resource providers:
 BD: XXXX@XXXX...
@@ -715,13 +680,13 @@ Romanji Title / 项目名 | 照抄文章标题，使用 ALT+ENTER 在单元格�
 Info | 项目性质，例如 `TV`, `TV(S1-3)`, `MOVIE`, Reseed 项目加标 `RS`
 Link | 文章页面的链接
 
-Trello 任务卡的操作由发布组组长负责，不作为常规发布流程，因此不包括在本规范内。
+打开 Trello 项目管理页面，将刚发布项目的对应卡片的状态改为 `完工`，同时将 Google Sheet 上的序号加至卡片名称前， 例如 `[200101] XXX`，注意空格。然后将卡片归档。
 
 至此整个发布流程完成。
 
 ------
 
-附主要合作字幕组对应中英文名称：
+附主要合作字幕组对应中英文名称。若有变动，请以总监 / 整理组提供的版本为准。
 
 |       中文名称 | 英文名称        |
 | -------------: | :-------------- |

@@ -27,6 +27,8 @@
 | 适当               | (adj.) Some / Moderate         |
 | 较强               | (adj.) Significant / Strong    |
 | 算法               | Algorithm                       |
+| 内封字幕             | Embedded subtitles                       |
+| 内嵌字幕             | Embedded hardcoded subtitles                       | 
 | 屏幕字字幕               | Forced subtitle                       |
 | 无障碍音轨               | Audio description                       |
 

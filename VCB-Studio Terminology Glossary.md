@@ -12,15 +12,15 @@
 
 | 一般词汇           | General                         |
 | ------------------ | ------------------------------- |
-| 原盘               | Original source                 |
+| 原盘               | Source / Original source / BD source                 |
 | 画风               | Image style                     |
-| 线条               | Line / Line art                 |
+| 线条               | Lines / Lines and curves                 |
 | 平面               | Flat area<sup name="a1">[1](#f1)</sup>          |
 | 纹理               | Texture                         |
 | 暗场               | Dark area                       |
 | 码率               | Bit-rate                        |
 | 参数               | Parameters                      |
-| 还原度             | High quality (bitrate)<sup name="a2">[2](#f2)</sup>   / Visual similarity / Revivification               |
+| 还原度             | High quality (bitrate)<sup name="a2">[2](#f2)</sup>   / Visual similarity / Transparency               |
 | 压制               | Encoding                        |
 | 原生分辨率         | Native resolution               |
 | 轻微               | (adj.) Mild / Slight / A bit   |

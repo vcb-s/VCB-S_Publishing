@@ -184,7 +184,7 @@ English Note
 
 公网发布一般安排于 1st call 至少十二小时之后，但同样根据实际情况可以特殊安排。目前可以通过 r21 来观测当前组内做种人数来判断是否已经可以发布公网，一般来说在发布公网时对应分流组应有至少 90% 的组员做种。发布任务不忙的时候尽量间隔一个自然日左右的时间。公网发布时间一般为北京时间 12:00 至 18:00 之间。
 
-公网发布之前请前往 Trello 将自己添加进对应的项目卡片，并将状态改为 `发布中`。
+公网发布之前请前往 Trello 将自己添加进对应的项目卡片，将状态改为 `发布中` 并且在发布栏署名。
 
 公网发布环节需要手动发布两个站点，包括 BANGUMI.MOE（推送 SHARE.DMHY.ORG / ACG.RIP / ACGNX.SE / SHARE.ACGNX.SE）和 NYAA.SI。
 
@@ -283,7 +283,7 @@ English Note
 
 ```html
 <p><!-- 首先是来源感谢，小体积版不带 -->
-    感谢所有资源提供者 / Thank to all resource providers: <br>
+    感谢所有资源提供者 / Thanks to all resource providers: <br>
     BD: XXXX@XXXX... <br>
     SCAN: XXXX@XXXX... <br>
     CD: XXXX@XXXX...  <br>
@@ -309,7 +309,7 @@ English Note
     基础播放器教程： <a href="https://vcb-s.com/archives/4384" target="_blank">PotPlayer</a> / <a href="https://vcb-s.com/archives/4407" target="_blank">MPC-HC</a> / <a href="https://vcb-s.com/archives/7159" target="_blank">IINA</a><br>
     进阶播放器教程： <a href="https://vcb-s.com/archives/5610" target="_blank">madVR</a> / <a href="https://vcb-s.com/archives/7228" target="_blank">PotPlayer+madVR</a> / <a href="https://vcb-s.com/archives/7594" target="_blank">mpv</a><br>
     中文字幕分享区： <a href="https://bbs.acgrip.com/" target="_blank">Anime 分享论坛</a>（请善用搜索）<br>
-    项目计划与列表： <a href="https://docs.google.com/spreadsheets/d/1mEqjCEHe0D_8bPkpcuuECxGZva-jSg3Z3Sc0u3tpZns/edit?usp=sharing" target="_blank">VCB-Studio 项目列表</a>（每月初更新）<br>
+    项目计划与列表： <a href="https://vcb-s.com/archives/138" target="_blank">VCB-Studio 项目列表</a>（每月初更新）<br>
     <br><!-- 空行 -->
 </p>
 <hr>
@@ -340,7 +340,7 @@ English Note
 <hr>
 <p>
     <!-- 写法参照 U2 reseed，如果没有资源提供者则不带 -->
-    感谢所有资源提供者 / Thank to all resource providers: <br>
+    感谢所有资源提供者 / Thanks to all resource providers: <br>
     BD: XXXX@XXXX... <br>
     SCAN: XXXX@XXXX... <br>
     CD: XXXX@XXXX...  <br>
@@ -361,7 +361,7 @@ English Note
     基础播放器教程： <a href="https://vcb-s.com/archives/4384" target="_blank">PotPlayer</a> / <a href="https://vcb-s.com/archives/4407" target="_blank">MPC-HC</a> / <a href="https://vcb-s.com/archives/7159" target="_blank">IINA</a><br>
     进阶播放器教程： <a href="https://vcb-s.com/archives/5610" target="_blank">madVR</a> / <a href="https://vcb-s.com/archives/7228" target="_blank">PotPlayer+madVR</a> / <a href="https://vcb-s.com/archives/7594" target="_blank">mpv</a><br>
     中文字幕分享区： <a href="https://bbs.acgrip.com/" target="_blank">Anime 分享论坛</a>（请善用搜索）<br>
-    项目计划与列表： <a href="https://docs.google.com/spreadsheets/d/1mEqjCEHe0D_8bPkpcuuECxGZva-jSg3Z3Sc0u3tpZns/edit?usp=sharing" target="_blank">VCB-Studio 项目列表</a>（每月初更新）
+    项目计划与列表： <a href="https://vcb-s.com/archives/138" target="_blank">VCB-Studio 项目列表</a>（每月初更新）
 </p>
 ```
 
@@ -394,7 +394,7 @@ Open <https://nyaa.si> and login using the team account, then click `Upload` fro
 
 If a project contains both official English PGS and external Chinese subtitles, select `Anime - English-translated`
 
-Fill **`Infomation`** with `https://docs.google.com/spreadsheets/d/1mEqjCEHe0D_8bPkpcuuECxGZva-jSg3Z3Sc0u3tpZns/edit?usp=sharing`
+Fill **`Infomation`** with `https://vcb-s.com/archives/138`
 
 Check **`Complete`** if this is a complete series
 
@@ -566,15 +566,6 @@ https://nyaa.si/view/xxxxxxx
 
 <!-- 在这里放一个 `more` 标签用来指示 WordPress 做摘要分隔 -->
 <!--more-->
-
-<!-- 接下来粘贴制作成员名单，注意分流组员的写法与公网稍有不同 -->
-感谢所有参与者：
-总监：XXX
-压制：XXX
-整理：XXX
-复查：XXX
-发布：XXX
-分流：<span title="此处粘贴之前复制的分流成员名单">VCB-Studio CDN 分流成员（鼠标悬停查看完整名单）</span>
 
 <!-- 如果非常喜欢这部番的某首音乐，可以上传音乐并将播放器放在这里 -->
 [audio]https://vcb-s.com/wp-content/uploads/xxxxxx[/audio]

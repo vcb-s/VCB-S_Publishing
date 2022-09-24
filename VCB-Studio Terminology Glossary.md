@@ -45,11 +45,12 @@
 | 锯齿                | Aliasing                      |
 | 晕轮 / 振铃         | Haloing / Ringing             |
 | 色块                | Blocking / MacroBlock         |
-| 噪点                | Noise / Grain<sup name="a1">[2](#f2)</sup>             |
+| 噪点                | Noise / Grain<sup name="a1">[2](#f2)</sup>|
 | 彩色噪点 / 色度噪点 | Chroma noise / chroma grain    |
 | 烂边 / 蚊噪         | DCT ringing  / DCT noise      |
-| 拉丝 / 横纹 / 交错  | Interlacing                   |
-| 缟缟                | Combing                       |
+| 交错                | Interlaced                    |
+| 拉丝 / 横纹         | Combing                       |
+| 缟缟                | Stripes / Combing             |
 | 鬼影                | Blending / Ghosting           |
 | 颜色越界            | (Chroma) Overflow / Underflow |
 | 色度色带            | Chroma banding                |

@@ -50,7 +50,7 @@
 | 烂边 / 蚊噪         | DCT ringing  / DCT noise      |
 | 交错                | Interlaced                    |
 | 拉丝 / 横纹         | Combing                       |
-| 缟缟                | Stripes / Combing             |
+| 缟缟                | Stripes                       |
 | 鬼影                | Blending / Ghosting           |
 | 颜色越界            | (Chroma) Overflow / Underflow |
 | 色度色带            | Chroma banding                |

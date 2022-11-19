@@ -17,7 +17,8 @@
 | 线条               | Lines / Lines and curves                 |
 | 平面               | Flat area<sup name="a1">[1](#f1)</sup>          |
 | 纹理               | Texture                         |
-| 暗场               | Dark area                       |
+| 暗场（图像的低亮度区域）| Dark area                       |
+| 暗场（影片中低亮度场景）| Dark scene(s)                       |
 | 码率               | Bit-rate                        |
 | 参数               | Parameters                      |
 | 还原度             | High quality (bitrate)<sup name="a2">[2](#f2)</sup>   / Visual similarity / Transparency               |

@@ -484,7 +484,7 @@ In the middle and the end of each month we shall renew previous torrents which m
 1. of zero or few seeders so reseeding is required to resurrect it;
 2. with some missing clips/mistakes so we would like to revise it;
 3. separated releases that can be batched into a single torrent.
-{mid, end} of Month Year
+{Mid, End} of Month Year
 
 ```
 

@@ -330,11 +330,11 @@ English Note
 <p><!-- 先是修正说明 -->
     重发修正：<br>
     1. XXXXXXXXXX；<br>
-    2. XXXXXXXXXXXX；<br>
+    2. XXXXXXXXXXXX。<br>
     <br>
     Reseed comment:<br>
     1. XXXXXXXXXX; <br>
-    2. XXXXXXXXXXXX; <br>
+    2. XXXXXXXXXXXX. <br>
     <br><!-- 空行 -->
 </p>
 <hr>
@@ -353,7 +353,7 @@ English Note
     1. 发布已久，公网已经或者几乎断种； <br>
     2. 存在制作错误或疏漏，尤其当存在补丁包修正； <br>
     3. 之前的发布为分卷或分季，适合补充一个系列合集。 <br>
-    XXXX 年 XX 月，{月中, 月末}<br>
+    XXXX 年 XX 月，{月中, 月末, 上旬, 下旬}<br>
     <br><!-- 空行 -->
 </p>
 <hr>
@@ -467,7 +467,7 @@ Or if this is a reseed, append the below part:
 Reseed comment:
 
 1. XXXXXXXXXX;
-2. XXXXXXXXXXXX;
+2. XXXXXXXXXXXX.
 
 ***
 
@@ -484,7 +484,8 @@ In the middle and the end of each month we shall renew previous torrents which m
 1. of zero or few seeders so reseeding is required to resurrect it;
 2. with some missing clips/mistakes so we would like to revise it;
 3. separated releases that can be batched into a single torrent.
-{Mid, End} of Month Year
+
+{Mid of, End of, Early, Late} Month Year
 
 ```
 

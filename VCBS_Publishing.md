@@ -348,12 +348,7 @@ English Note
 </p>
 <hr>
 <p><!-- 然后是重发计划说明 -->
-    这份发布来自 VCB-Studio 每月老番重发计划。 <br>
-    我们计划在每月月中和月末，重发 VCB-Studio 曾经发布过的合集。选择的合集有这些特点： <br>
-    1. 发布已久，公网已经或者几乎断种； <br>
-    2. 存在制作错误或疏漏，尤其当存在补丁包修正； <br>
-    3. 之前的发布为分卷或分季，适合补充一个系列合集。 <br>
-    XXXX 年 XX 月，{月中, 月末, 上旬, 下旬}<br>
+    本次发布来自 VCB-Studio 旧作重发计划。我们会不定期重发过去发布过的合集，或为补充做种，或为修正制作错漏，或为整合系列合集。<br>
     <br><!-- 空行 -->
 </p>
 <hr>
@@ -478,14 +473,7 @@ CD: XXXX@XXXX
 
 ***
 
-This is a release of VCB-Studio Monthly Reseed Project.
-In the middle and the end of each month we shall renew previous torrents which may be:
-
-1. of zero or few seeders so reseeding is required to resurrect it;
-2. with some missing clips/mistakes so we would like to revise it;
-3. separated releases that can be batched into a single torrent.
-
-{Mid of, End of, Early, Late} Month Year
+This is a release of VCB-Studio Reseed Project. We would re-upload pervious torrents from time to time, to resurrect old torrents with few seeders, to correct errors/omissions, or to batch separate releases that belong to a same series.
 
 ```
 

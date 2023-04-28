@@ -79,7 +79,7 @@ CD: XXXX@XXXX(xxxx.com, xxxx.com) <!-- 注意放流者链接已由中括号改�
 
 #### 海报图的详细说明
 
-海报图片可以使用动画的官方宣传海报图片，如果你对这部作品有爱的话也可以夹带私货，自选一张喜欢的图片，不过要注意尺度，不要使用 NSFW 的图片。例如，可以在待发布动画的 anidb.net 页面上找到官方海报图片，通过 Google 图片搜索找到分辨率更高的相同图片。无论采用哪种图片，有效分辨率不能过小（如果图片分辨率过低，可以尝试用 waifu2x 放大）。确认图片目视足够清晰，且没有明显压缩导致的画质劣化和严重偏色。图片可以适当裁剪以保证横纵比例合适，并缩放为横向不大于 800 px，保存为质量 95 的 jpg 格式。
+海报图片可以使用动画的官方宣传海报图片，如果你对这部作品有爱的话也可以夹带私货，自选一张喜欢的图片，不过要注意尺度，不要使用 NSFW 的图片。例如，可以在待发布动画的 anidb.net 页面上找到官方海报图片，通过 Google 图片搜索找到分辨率更高的相同图片。无论采用哪种图片，有效分辨率不能过小（如果图片分辨率过低，可以尝试用 waifu2x 放大）。确认图片目视足够清晰，且没有明显压缩导致的画质劣化和严重偏色。图片可以适当裁剪以保证横纵比例合适，并缩放为横向 800 px，保存为 WebP 格式。
 
 ---
 
@@ -236,10 +236,8 @@ English Note
 
 ```html
 <p><!-- 整个主体段都在一个 <p></p> 内，段中没有 <hr>，断行请用 <br> = Ctrl/Shift + Enter -->
-    <!-- 海报图 800px -->
-    <img src="http://img.2222.moe/images/2018/08/05/JustBecause_800px.jpg" alt="image"><br>
-    <!-- 有爱的话可以指向原图 -->
-    <a href="https://pieayu.files.wordpress.com/2017/10/just_because.jpg"><img src="http://img.2222.moe/images/2018/08/05/JustBecause_800px.jpg"></a><br>
+    <!-- 海报图 800px WebP 格式 -->
+    <img src="http://img.2222.moe/images/2018/08/05/JustBecause_800px.webp" alt="JustBecause_800px.webp"><br>
     <br><!-- 空行 --><!-- 空行的原因是 ACG.RIP 进行 HTML->BBCode 时没有处理好 <p></p> -->
 
     <!-- 片名和编码 -->
@@ -252,10 +250,6 @@ English Note
     中文 S2 BDRip <br>
     ENGLISH S2 BDRip <br>
     日本語 S2 BDRip <br>
-    <!-- 紧跟编码格式，不空行 -->
-    <!-- 例 1 -->10-bit 1080p AVC + FLAC，MKV 格式。约 650 MB 一集。<br>
-    <!-- 例 2 -->10-bit 1080p HEVC + FLAC + AAC，MKV 格式。每话约 1.1 GB。<br>
-    <!-- 例 3 -->8-bit 720p HEVC + AAC，MP4 格式。每话约 250 MB。<br>
     <!-- 如果有内封或内嵌字幕，应该指出 -->内封原盘 ENG + JPN 字幕。<br>
     <!-- 如果有内封、内嵌或外挂音轨，应该指出 -->内封评论音轨，外挂 FLAC 5.1 + Headphone X。<br>
     <!-- 注意区分使用 内封 和 内嵌。内封指挂载在视频文件内的信息内容，可以提取出来；内嵌则一般不可提取。多数情况下 MKV 内的字幕和音轨都为内封，MP4 内为内嵌 -->
@@ -294,11 +288,6 @@ English Note
     本项目文件名较长，下载时请注意存放路径，以免发生无法下载的情况。<br><!-- 英文紧跟中文不空行 -->
     Please be mindful of long paths in this torrent to avoid download error. <br>
     <br><!-- 空行 -->
-
-<!-- 如果种子内含有 Webp 扫图说明需要带下面这两行，可以默认携带 -->
-    本资源扫图格式为 WebP，浏览详情请参见 <a href="https://vcb-s.com/archives/7949" target="_blank">https://vcb-s.com/archives/7949</a>。<br><!-- 英文紧跟中文不空行 -->
-    Please refer to <a href="https://vcb-s.com/archives/7949" target="_blank">https://vcb-s.com/archives/7949</a> if you have trouble viewing WebP images. <br>
-    <br><!-- 空行 -->
     
 <!-- 如果种子内含有 TSDM 合购区的资源需要带下面这两行，可以默认携带 -->
     有关 TSDM 合购区的详情请参见 <a href="https://www.tsdm39.com/forum.php?mod=viewthread&amp;tid=879923">https://www.tsdm39.com/forum.php?mod=viewthread&amp;tid=879923</a>。<br><!-- 英文紧跟中文不空行 -->
@@ -310,6 +299,7 @@ English Note
     进阶播放器教程： <a href="https://vcb-s.com/archives/5610" target="_blank">madVR</a> / <a href="https://vcb-s.com/archives/7228" target="_blank">PotPlayer+madVR</a> / <a href="https://vcb-s.com/archives/7594" target="_blank">mpv</a><br>
     中文字幕分享区： <a href="https://bbs.acgrip.com/" target="_blank">Anime 分享论坛</a>（请善用搜索）<br>
     项目计划与列表： <a href="https://vcb-s.com/archives/138" target="_blank">VCB-Studio 项目列表</a>（每月初更新）<br>
+    特殊格式说明： <a href="https://vcb-s.com/archives/7949" target="_blank">WebP</a><br>
     <br><!-- 空行 -->
 </p>
 <hr>
@@ -357,12 +347,12 @@ English Note
     进阶播放器教程： <a href="https://vcb-s.com/archives/5610" target="_blank">madVR</a> / <a href="https://vcb-s.com/archives/7228" target="_blank">PotPlayer+madVR</a> / <a href="https://vcb-s.com/archives/7594" target="_blank">mpv</a><br>
     中文字幕分享区： <a href="https://bbs.acgrip.com/" target="_blank">Anime 分享论坛</a>（请善用搜索）<br>
     项目计划与列表： <a href="https://vcb-s.com/archives/138" target="_blank">VCB-Studio 项目列表</a>（每月初更新）
+    特殊格式说明： <a href="https://vcb-s.com/archives/7949" target="_blank">WebP</a><br>
+    <br><!-- 空行 -->
 </p>
 ```
 
 填好发布文后再点击 `<>` 回到可视化界面检查一下渲染出来的样式正确，然后点击 **`Choose File`** 选择种子文件，发布身份选择 **`VCB-Studio`**，点上 **`团队同步`**，确认无误后点击 **`发布`** 完成工作。不要关页面，一会还要用。
-
-
 
 ### Publish at NYAA.SI
 
@@ -395,90 +385,7 @@ Check **`Complete`** if this is a complete series
 
 Check **`Remake`** <u>only if</u> you would like to explicitly acknowledge that this work is derived from another release on nyaa. Do not check this box for reseeded series
 
-Then fill **`Description`**. The easiest way to generate the markdown doc is using an html->markdown online convertor. Just paste the html code you have finished on BANGUMI.MOE and then modify the output to match the format specified below. Note that you still need to include collaboration acknowledgement, making comments and WebP note as the same for BANGUMI.MOE
-
-The main body is similar to that on BANGUMI.MOE but without Chinese and with English punctuations. Please note that  you DO need to delete the descriptors in <!--> as they will show up as visible contents
-
-Again, remember to change all punctuation marks into English ones.
-
-```markdown
-
-![](http://img.2222.moe/images/YYYY/MM/DD/xxxx_800px.jpg)
-![![](http:/xxxxxxxx)](http://img.2222.moe/images/YYYY/MM/DD/xxxx_800px.jpg)
-
-<!-- place titles -->
-<!-- if names are short, put them in one row -->
-English / 日本語 S1 BDRip
-<!-- or if the names are too long, put them in separate rows -->
-English OVA BDRip
-日本語 OVA BDRip
-<!-- place the video specs immediately following the titles -->
-10-bit 1080p HEVC + FLAC + AAC, MKV format. ~ 1.1 GB / EP.
-8-bit 720p HEVC + AAC, MP4 format. ~ 250 MB / EP.
-<!-- if there are PGS, point them out -->Official ENG + JPN PGS.
-<!-- if there are embedded audio tracks or external MKA files, point them out -->Embedded audio commentary track. MKA contains FLAC 5.1 + Headphone X.
-
-This project is in cooperation with **English Group Name**. Thanks to them for elaborating Chinese subtitles.
-
-This anime ............ XXXXXXXXXXXX...
-pp: ............ XXXXXXXXXXXXX ...
-
-***
-
-```
-
-Then if this is a new project and  Hi-Quality ver, append the below part:
-
-```markdown
-
-Thanks to all resource providers:
-BD: XXXX@XXXX...
-Scans: XXXX@XXXX
-CD: XXXX@XXXX
-
-***
-
-<!-- attach the following two lines where applicable -->
-Please be mindful of long paths in this torrent to avoid download error.
-
-Please refer to https://vcb-s.com/archives/7949 if you have trouble viewing WebP images. 
-
-Please refer to https://www.tsdm39.com/forum.php?mod=viewthread&tid=879923 for more informaion about jointly purchased music.
-
-***
-
-Comparison (right click on the image and open it in a new tab to see the full-size one)  
-Source ________________________________________________ Encode
-[![](http://img.2222.moe/images/YYYY/MM/DD/1234s.png)](http://img.2222.moe/images/YYYY/MM/DD/1234.png) [![](http://img.2222.moe/images/YYYY/MM/DD/1234s.png)](http://img.2222.moe/images/YYYY/MM/DD/1234v.png)
-<!-- Break between links -->
-[![](http://img.2222.moe/images/YYYY/MM/DD/1234s.png)](http://img.2222.moe/images/YYYY/MM/DD/1234.png) [![](http://img.2222.moe/images/YYYY/MM/DD/1234s.png)](http://img.2222.moe/images/YYYY/MM/DD/1234v.png)
-
-```
-
-Or if this is a reseed, append the below part:
-
-```markdown
-
-Reseed comment:
-
-1. XXXXXXXXXX;
-2. XXXXXXXXXXXX.
-
-***
-
-Thanks to all resource providers:
-BD: XXXX@XXXX...
-Scans: XXXX@XXXX
-CD: XXXX@XXXX
-
-***
-
-This is a release of VCB-Studio Reseed Project. We would re-upload pervious torrents from time to time, to resurrect old torrents with few seeders, to correct errors/omissions, or to batch separate releases that belong to a same series.
-
-```
-
-Now check the effect by clicking **`Preview`**. If everything looks good, click **`Upload`** to launch it.
-
+Then fill **`Description`**. The easiest way to generate the markdown doc is using an html->markdown online convertor. Just paste the html code you have finished on BANGUMI.MOE. Remember to check if the formatting is correct in the nyaa preview.（Not in IDE or other software)
 
 ### 公网发布收尾
 
@@ -543,10 +450,6 @@ https://nyaa.si/view/xxxxxxx
 <!-- 可选的发布吐槽 -->
 好想看到会动的瑠衣酱 XXXXXXXXX ...
 
-<!-- 位深/分辨率/编码/体积等信息，与 BANGUMI.MOE 处一样 -->
-<!-- 例 1 -->10-bit 1080p AVC + FLAC，MKV 格式。约 650 MB 一集。
-<!-- 例 2 -->10-bit 1080p HEVC + FLAC + AAC，MKV 格式。每话约 1.1 GB。
-<!-- 多版本都要写上 -->8-bit 720p HEVC + AAC，MP4 格式。每话约 250 MB。
 <!-- 如果有内封或内嵌字幕，应该指出 -->内封原盘 ENG + JPN 字幕。
 <!-- 如果有内封、内嵌或外挂音轨，应该指出 -->内封评论音轨。外挂 FLAC 5.1 + Headphone X。
 

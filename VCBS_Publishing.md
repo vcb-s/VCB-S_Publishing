@@ -48,7 +48,7 @@ CD: XXXX@XXXX(xxxx.com, xxxx.com) <!-- 注意放流者链接已由中括号改�
 将其中的文件路径改成形如 "D:\SAYA IS ∞ LOLICON!\[VCB-Studio]..."
 [/code]
 ```
-根据 TSDM 论坛方面的建议，所有 TSDM 的资源都需要将域名改为 `tsdm39.net`，例如将 `https://www.tsdm.live/forum.php` 改为 `https://www.tsdm39.net/forum.php`。请在发布前留意检查。
+根据论坛方面的建议，所有 TSDM 的资源都需要将域名改为 `tsdm39.com`，例如将 `https://www.tsdm39.net/forum.php` 改为 `https://www.tsdm39.com/forum.php`。请在发布前留意检查。
 
 接下来在 `类型` 里给该任务分配分流组，`质量` 一栏为选填内容，可以忽略，`内容` 选择 `公网[允许公网tracker]`，然后勾选 `匿名发布`。检查无误后点击 `发布`。
 
@@ -301,8 +301,8 @@ English Note
     <br><!-- 空行 -->
     
 <!-- 如果种子内含有 TSDM 合购区的资源需要带下面这两行，可以默认携带 -->
-    有关 TSDM 合购区的详情请参见 <a href="https://www.tsdm39.net/forum.php?mod=viewthread&amp;tid=879923">https://www.tsdm39.net/forum.php?mod=viewthread&amp;tid=879923</a>。<br><!-- 英文紧跟中文不空行 -->
-    Please refer to <a href="https://www.tsdm39.net/forum.php?mod=viewthread&amp;tid=879923">https://www.tsdm39.net/forum.php?mod=viewthread&amp;tid=879923</a> for more  information about jointly purchased music.<br>
+    有关 TSDM 合购区的详情请参见 <a href="https://www.tsdm39.com/forum.php?mod=viewthread&amp;tid=879923">https://www.tsdm39.com/forum.php?mod=viewthread&amp;tid=879923</a>。<br><!-- 英文紧跟中文不空行 -->
+    Please refer to <a href="https://www.tsdm39.com/forum.php?mod=viewthread&amp;tid=879923">https://www.tsdm39.com/forum.php?mod=viewthread&amp;tid=879923</a> for more  information about jointly purchased music.<br>
     <br><!-- 空行 -->
     
 <!-- 然后跟教程，注意 MP4 版本不贴进阶教程 -->
@@ -443,7 +443,7 @@ Please be mindful of long paths in this torrent to avoid download error.
 
 Please refer to https://vcb-s.com/archives/7949 if you have trouble viewing WebP images. 
 
-Please refer to https://www.tsdm39.net/forum.php?mod=viewthread&tid=879923 for more informaion about jointly purchased music.
+Please refer to https://www.tsdm39.com/forum.php?mod=viewthread&tid=879923 for more informaion about jointly purchased music.
 
 ***
 

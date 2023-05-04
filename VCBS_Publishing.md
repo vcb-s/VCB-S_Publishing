@@ -67,8 +67,8 @@ CD: XXXX@XXXX(xxxx.com, xxxx.com) <!-- 注意放流者链接已由中括号改�
 
 3. 如果是新番，应该有总监提供的吐槽和截图，并翻译为英文版
 4. 如果是重发，应该有整理组提供的修正说明，并翻译为英文版
-5. 一份横向长度 800px 的海报图，并已经上传至图床 <http://img.2222.moe/vcbs>
-6. 一份横向长度 1400px 且横纵比 2:1 左右的海报图
+5. 一份横向长度 800px 的 WebP 格式海报图，并已经上传至图床 <http://img.2222.moe/vcbs>
+6. 一份横向长度 1400px 且横纵比 2:1 左右的 WebP 格式海报图
 
 #### 画质吐槽和截图
 
@@ -248,13 +248,12 @@ CD: XXXX@XXXX(xxxx.com, xxxx.com) <!-- 注意放流者链接已由中括号改�
 <hr />
 <p>
     <!-- 最后是教程 -->
+    中文字幕分享： <a href="https://bbs.acgrip.com/" target="_blank">Anime 分享论坛</a><br />
+    项目计划列表： <a href="https://vcb-s.com/archives/138" target="_blank">VCB-Studio 项目列表</a><br />
+    特殊格式说明： <a href="https://vcb-s.com/archives/7949" target="_blank">WebP</a><br />
     基础播放器教程： <a href="https://vcb-s.com/archives/4384" target="_blank">PotPlayer</a> / <a href="https://vcb-s.com/archives/4407" target="_blank">MPC-HC</a> / <a href="https://vcb-s.com/archives/7159" target="_blank">IINA</a><br />
     进阶播放器教程： <a href="https://vcb-s.com/archives/5610" target="_blank">madVR</a> / <a href="https://vcb-s.com/archives/7228" target="_blank">PotPlayer+madVR</a> / <a href="https://vcb-s.com/archives/7594" target="_blank">mpv</a><br />
-    中文字幕分享区： <a href="https://bbs.acgrip.com/" target="_blank">Anime 分享论坛</a>（请善用搜索）<br />
-    项目计划与列表： <a href="https://vcb-s.com/archives/138" target="_blank">VCB-Studio 项目列表</a>（每月初更新）<br />
-    特殊格式说明： <a href="https://vcb-s.com/archives/7949" target="_blank">WebP</a><br />
-    <br />
-    <!-- 空行 -->
+    <br /><!-- 空行 -->
 </p>
 ```
 
@@ -264,17 +263,17 @@ CD: XXXX@XXXX(xxxx.com, xxxx.com) <!-- 注意放流者链接已由中括号改�
 
 打开 <https://nyaa.si> 并使用团队账号登录，从顶栏点击 `Upload`，上传种子，标题与 BANGUMI.MOE 相同。
 
-|                       `Category` | 说明                                 |
-| -------------------------------: | :----------------------------------- |
-|     `Anime - English-translated` | 有官方原盘英语 PGS 字幕              |
-| `Anime - Non-English-translated` | 没有英语 PGS 字幕，但有中文 ASS 字幕 |
-|                    `Anime - Raw` | 其他情况                             |
+|                       `Category` | 说明                                     |
+| -------------------------------: | :--------------------------------------- |
+|     `Anime - English-translated` | 有官方英语 PGS 字幕                      |
+| `Anime - Non-English-translated` | 没有官方英语 PGS 字幕，但有中文 ASS 字幕 |
+|                    `Anime - Raw` | 其他情况                                 |
 
 **`Infomation`** 填写 `https://vcb-s.com/archives/138`
 
 **`Complete`** 当项目是完整季度时勾选
 
-**`Remake`** <u>仅当</u> 该项目是从 nyaa 上的另一个版本派生时勾选， Reseed 不勾选。
+**`Remake`** <u>仅当</u> 该项目是从 nyaa 上的另一个版本派生时勾选，Reseed 重发项目不勾选。
 
 **`Description`**. 使用 html 至 markdown 转换器转换 BANGUMI.MOE 上的内容，在 `Preview`中检查格式是否正确（注意空行）。
 

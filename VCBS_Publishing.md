@@ -78,7 +78,7 @@ CD: XXXX@XXXX(xxxx.com, xxxx.com) <!-- 注意放流者链接已由中括号改�
 
 #### 海报图的详细说明
 
-海报图片可以使用动画的官方宣传海报图片，如果你对这部作品有爱的话也可以夹带私货，自选一张喜欢的图片，不过要注意尺度，不要使用 NSFW 的图片。例如，可以在待发布动画的 anidb.net 页面上找到官方海报图片，通过 Google 图片搜索找到分辨率更高的相同图片。无论采用哪种图片，有效分辨率不能过小（如果图片分辨率过低，可以尝试用 waifu2x 放大）。确认图片目视足够清晰，且没有明显压缩导致的画质劣化和严重偏色。图片可以适当裁剪以保证横纵比例合适，并缩放为横向 800 px，保存为 WebP 格式。
+海报图片可以使用动画的官方宣传海报图片，如果你对这部作品有爱的话也可以夹带私货，自选一张喜欢的图片，不过要注意尺度，不要使用 NSFW 的图片。例如，可以在待发布动画的 anidb.net 页面上找到官方海报图片，通过 Google 图片搜索找到分辨率更高的相同图片。无论采用哪种图片，有效分辨率不能过小（如果图片分辨率过低，可以尝试用 waifu2x 放大）。确认图片目视足够清晰，且没有明显压缩导致的画质劣化和严重偏色。图片可以适当裁剪以保证横纵比例合适，并缩放为横向 800 px，保存为质量 90 的 WebP 格式。
 
 ---
 
@@ -153,8 +153,13 @@ CD: XXXX@XXXX(xxxx.com, xxxx.com) <!-- 注意放流者链接已由中括号改�
     中文 S2 BDRip <br />
     ENGLISH S2 BDRip <br />
     日本語 S2 BDRip <br />
-    <!-- 如果有内封或内嵌字幕，应该指出 -->内封原盘 ENG + JPN 字幕。<br />
-    <!-- 如果有内封、内嵌或外挂音轨，应该指出 -->内封评论音轨，外挂 FLAC 5.1 + Headphone X。<br />
+    <br />
+    <!-- 如果有内封或内嵌字幕，应该指出 -->
+    内封原盘 ENG + JPN 字幕。<br />
+    Embedded official ENG + JPN PGS.<br />
+    <!-- 如果有内封、内嵌或外挂音轨，应该指出 -->
+    内封评论音轨，外挂 FLAC 5.1 + Headphone X。<br />
+    Embedded audio commentary track. MKA contains FLAC 5.1 + Headphone X.<br />
     <!-- 注意区分使用 内封 和 内嵌。内封指挂载在视频文件内的信息内容，可以提取出来；内嵌则一般不可提取。多数情况下 MKV 内的字幕和音轨都为内封，MP4 内为内嵌 -->
     <br /><!-- 空行 -->
 
@@ -188,9 +193,14 @@ CD: XXXX@XXXX(xxxx.com, xxxx.com) <!-- 注意放流者链接已由中括号改�
 </p>
 <hr />
 <p>
-    有关本组不再保证收集作品相关 CD 和扫图资源的声明 <a href="https://vcb-s.com/archives/14331">https://vcb-s.com/archives/14331</a>。<br /><!-- 英文紧跟中文不空行 -->
-    A statement about our group no longer guaranteeing the collection of CDs and Scans related to the projects. <a href="https://vcb-s.com/archives/14331">https://vcb-s.com/archives/14331</a>.<br />
-    <br />
+    <!-- 如果项目标题或文件名过长，请带下面两行提示，一般情况下不需要带 -->
+    本项目文件名较长，下载时请注意存放路径，以免发生无法下载的情况。<br /><!-- 英文紧跟中文不空行 -->
+    Please be mindful of long paths in this torrent to avoid download error. <br />
+    <br /><!-- 空行 -->
+
+    VCB-Studio 已不再保证收集作品相关 CD 和扫图资源，详情请参见<a href="https://vcb-s.com/archives/14331">https://vcb-s.com/archives/14331</a>。<br />
+    Please refer to <a href="https://vcb-s.com/archives/14331">https://vcb-s.com/archives/14331</a> for more information about that VCB-Studio will no longer guarantee to include relevant CDs and scans.<br />
+    <br /><!-- 空行 -->
     有关 TSDM 合购区的详情请参见 <a href="https://www.tsdm39.com/forum.php?mod=viewthread&amp;tid=879923">https://www.tsdm39.com/forum.php?mod=viewthread&amp;tid=879923</a>。<br />
     Please refer to <a href="https://www.tsdm39.com/forum.php?mod=viewthread&amp;tid=879923">https://www.tsdm39.com/forum.php?mod=viewthread&amp;tid=879923</a> for more information about jointly purchased music.<br />
     <br /><!-- 空行 -->
@@ -198,7 +208,7 @@ CD: XXXX@XXXX(xxxx.com, xxxx.com) <!-- 注意放流者链接已由中括号改�
     <!-- 然后跟教程，注意 MP4 版本不贴进阶教程 -->
     中文字幕分享： <a href="https://bbs.acgrip.com/" target="_blank">Anime 分享论坛</a><br />
     项目计划列表： <a href="https://vcb-s.com/archives/138" target="_blank">VCB-Studio 项目列表</a><br />
-    特殊格式说明： <a href="https://vcb-s.com/archives/7949" target="_blank">WebP</a><br />
+    特殊格式说明： <a href="https://vcb-s.com/archives/7949" target="_blank">WebP 扫图说明</a><br />
     基础播放器教程： <a href="https://vcb-s.com/archives/4384" target="_blank">PotPlayer</a> / <a href="https://vcb-s.com/archives/4407" target="_blank">MPC-HC</a> / <a href="https://vcb-s.com/archives/7159" target="_blank">IINA</a><br />
     进阶播放器教程： <a href="https://vcb-s.com/archives/5610" target="_blank">madVR</a> / <a href="https://vcb-s.com/archives/7228" target="_blank">PotPlayer+madVR</a> / <a href="https://vcb-s.com/archives/7594" target="_blank">mpv</a><br />
     <br /><!-- 空行 -->
@@ -250,7 +260,7 @@ CD: XXXX@XXXX(xxxx.com, xxxx.com) <!-- 注意放流者链接已由中括号改�
     <!-- 最后是教程 -->
     中文字幕分享： <a href="https://bbs.acgrip.com/" target="_blank">Anime 分享论坛</a><br />
     项目计划列表： <a href="https://vcb-s.com/archives/138" target="_blank">VCB-Studio 项目列表</a><br />
-    特殊格式说明： <a href="https://vcb-s.com/archives/7949" target="_blank">WebP</a><br />
+    特殊格式说明： <a href="https://vcb-s.com/archives/7949" target="_blank">WebP 扫图说明</a><br />
     基础播放器教程： <a href="https://vcb-s.com/archives/4384" target="_blank">PotPlayer</a> / <a href="https://vcb-s.com/archives/4407" target="_blank">MPC-HC</a> / <a href="https://vcb-s.com/archives/7159" target="_blank">IINA</a><br />
     进阶播放器教程： <a href="https://vcb-s.com/archives/5610" target="_blank">madVR</a> / <a href="https://vcb-s.com/archives/7228" target="_blank">PotPlayer+madVR</a> / <a href="https://vcb-s.com/archives/7594" target="_blank">mpv</a><br />
     <br /><!-- 空行 -->
@@ -275,7 +285,7 @@ CD: XXXX@XXXX(xxxx.com, xxxx.com) <!-- 注意放流者链接已由中括号改�
 
 **`Remake`** <u>仅当</u> 该项目是从 nyaa 上的另一个版本派生时勾选，Reseed 重发项目不勾选。
 
-**`Description`**. 使用 html 至 markdown 转换器转换 BANGUMI.MOE 上的内容，在 `Preview`中检查格式是否正确（注意空行）。
+**`Description`** 使用 html 至 markdown 转换器转换 BANGUMI.MOE 上的内容，在 `Preview`中检查格式是否正确（注意空行）。
 
 ### 公网发布收尾
 

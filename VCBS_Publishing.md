@@ -184,7 +184,7 @@ CD: XXXX@XXXX(xxxx.com, xxxx.com) <!-- 注意放流者链接已由中括号改�
 
 ```html
 <p>
-    <!-- 首先是来源感谢，小体积版不带 -->
+    <!-- 首先是来源感谢，小体积版不带，不再写出自 NYAA 的资源 -->
     感谢所有资源提供者 / Thanks to all resource providers: <br />
     BD: XXXX@XXXX... <br />
     SCAN: XXXX@XXXX... <br />

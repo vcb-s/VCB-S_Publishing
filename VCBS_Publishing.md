@@ -206,7 +206,7 @@ CD: XXXX@XXXX(xxxx.com, xxxx.com) <!-- 注意放流者链接已由中括号改�
     <br /><!-- 空行 -->
 
     <!-- 然后跟教程，注意 MP4 版本不贴进阶教程 -->
-    播放器教程：<a href="https://vcb-s.com/archives/16639" target="_blank">VCB-Studio 视频播放器推荐</a><br />
+    播放器教程： <a href="https://vcb-s.com/archives/16639" target="_blank">VCB-Studio 视频播放器推荐</a><br />
     中文字幕分享： <a href="https://bbs.acgrip.com/" target="_blank">Anime 分享论坛</a><br />
     项目计划列表： <a href="https://vcb-s.com/archives/138" target="_blank">VCB-Studio 项目列表</a><br />
     特殊格式说明： <a href="https://vcb-s.com/archives/7949" target="_blank">WebP 扫图说明</a><br />
@@ -257,7 +257,7 @@ CD: XXXX@XXXX(xxxx.com, xxxx.com) <!-- 注意放流者链接已由中括号改�
 <hr />
 <p>
     <!-- 最后是教程 -->
-    播放器教程：<a href="https://vcb-s.com/archives/16639" target="_blank">VCB-Studio 视频播放器推荐</a><br />
+    播放器教程： <a href="https://vcb-s.com/archives/16639" target="_blank">VCB-Studio 视频播放器推荐</a><br />
     中文字幕分享： <a href="https://bbs.acgrip.com/" target="_blank">Anime 分享论坛</a><br />
     项目计划列表： <a href="https://vcb-s.com/archives/138" target="_blank">VCB-Studio 项目列表</a><br />
     特殊格式说明： <a href="https://vcb-s.com/archives/7949" target="_blank">WebP 扫图说明</a><br />

@@ -205,7 +205,7 @@ CD: XXXX@XXXX(xxxx.com, xxxx.com) <!-- 注意放流者链接已由中括号改�
     Please refer to <a href="https://www.tsdm39.com/forum.php?mod=viewthread&amp;tid=879923">https://www.tsdm39.com/forum.php?mod=viewthread&amp;tid=879923</a> for more information about jointly purchased music.<br />
     <br /><!-- 空行 -->
 
-    <!-- 然后跟教程，注意 MP4 版本不贴进阶教程 -->
+    <!-- 然后跟教程 -->
     播放器教程： <a href="https://vcb-s.com/archives/16639" target="_blank">VCB-Studio 视频播放器推荐</a><br />
     中文字幕分享： <a href="https://bbs.acgrip.com/" target="_blank">Anime 分享论坛</a><br />
     项目计划列表： <a href="https://vcb-s.com/archives/138" target="_blank">VCB-Studio 项目列表</a><br />

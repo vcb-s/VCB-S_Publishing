@@ -99,4 +99,4 @@
 | 拉升（分辨率） | Upscaling                                      |
 | 可还原式拉升   | Revertible upscaling                           |
 | 缩回（分辨率） | Descaling                                      |
-| 还原 – 再重构  | Descaling and reconstruction                   |
+| 还原 – 再重构 / 逆向拉伸重构  | Descaling and reconstruction                   |

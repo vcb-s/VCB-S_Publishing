@@ -305,8 +305,8 @@ https://nyaa.si/view/xxxxxxx
 发布后若发现有错漏需要修改，请务必尽快登陆各个网站修改对应页面。
 
 -   bangumi.moe: 页面标题右侧 `X` 的左侧有一个编辑按钮
--   acgnx.se: 页面顶部 `Control Panel` 是登陆入口。登陆完毕后在右侧 `My Torrent List` 或者 `Union Resources` 里找到发布的页面进行编辑
 -   share.acgnx.se: 页面顶部 `發佈資源` 是登陆入口。登陆完毕后在右侧 `管理自己發佈的資源` 或者 `聯盟發佈資源` 里找到发布的页面进行编辑
+-   acgnx.se: 页面顶部 `Control Panel` 是登陆入口。登陆完毕后在右侧 `My Torrent List` 或者 `Union Resources` 里找到发布的页面进行编辑
 -   acg.rip: 页面右上角绿色按钮登陆，之后点击蓝色头像，在弹出菜单选择 `VCB-Studio`，在列表中找到发布的页面进行编辑
 -   share.dmhy.org: 页面右上角登入，从 `個人中心 > 管理聯盟發佈資源` 找到发布的页面进行编辑
 -   nyaa.si: 页面右上角登陆，找到自己发布的页面后在标题左侧点击编辑按钮进行编辑
@@ -373,6 +373,8 @@ https://nyaa.si/view/xxxxxxx
 <!-- 这里空行，然后下一行开始点击 `link` 粘贴刚才发布公网各站的链接，注意勾选 `在新标签页中打开链接` -->
 <a href="https://bangumi.moe/torrent/xxxxxxxx" rel="noopener" target="_blank">https://bangumi.moe/torrent/xxxxxxxx</a>
 <!-- 每个链接之间空行 -->
+<a href="https://share.acgnx.se/show-xxxxxxxxxxxxxxx.html" rel="noopener" target="_blank">https://share.acgnx.se/show-xxxxxxxxxxxxxxx.html</a>
+<!-- 每个链接之间空行 -->
 <a href="https://www.acgnx.se/show-xxxxxxxx.html" rel="noopener" target="_blank">https://www.acgnx.se/show-xxxxxxxx.html</a>
 <!-- 每个链接之间空行 -->
 <a href="https://acg.rip/t/xxxxxx" rel="noopener" target="_blank">https://acg.rip/t/xxxxxx</a>
@@ -386,6 +388,8 @@ https://nyaa.si/view/xxxxxxx
 [box style="download"] 8-bit 720p HEVC
 
 <a href="https://bangumi.moe/torrent/xxxxxxxx" rel="noopener" target="_blank">https://bangumi.moe/torrent/xxxxxxxx</a>
+
+<a href="https://share.acgnx.se/show-xxxxxxxxxxxxxxx.html" rel="noopener" target="_blank">https://share.acgnx.se/show-xxxxxxxxxxxxxxx.html</a>
 
 <a href="https://www.acgnx.se/show-xxxxxxxx.html" rel="noopener" target="_blank">https://www.acgnx.se/show-xxxxxxxx.html</a>
 
@@ -404,6 +408,8 @@ https://nyaa.si/view/xxxxxxx
 旧吐槽 [box style="download"] 10-bit 1080p AVC
 <!-- 用 `del` 按钮划掉旧链接，如果遇到度盘链接或 720p 链接可以直接删除 -->
 <del><a href="https://bangumi.moe/torrent/xxxxxxxx" rel="noopener" target="_blank">https://bangumi.moe/torrent/xxxxxxxx</a></del>
+
+<del><a href="https://share.acgnx.se/show-xxxxxxxxxxxxxxx.html" rel="noopener" target="_blank">https://share.acgnx.se/show-xxxxxxxxxxxxxxx.html</a>
 
 <del><a href="https://www.acgnx.se/show-xxxxxx.html" rel="noopener" target="_blank">https://www.acgnx.se/show-xxxxxx.html</a></del>
 

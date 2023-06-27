@@ -12,26 +12,27 @@
 
 | 一般词汇           | General                         |
 | ------------------ | ------------------------------- |
-| 原盘               | Source / Original source / BD source                 |
+| 原盘               | Source / BD source              |
 | 画风               | Image style                     |
-| 线条               | Lines / Lines and curves                 |
-| 平面               | Flat area<sup name="a1">[1](#f1)</sup>          |
+| 线条               | Lines / Lines and curves        |
+| 平面               | Flat area<sup name="a1">[1](#f1)</sup>  |
 | 纹理               | Texture                         |
 | 暗场（图像的低亮度区域）| Dark area                       |
-| 暗场（影片的低亮度场景）| Dark scene(s)                       |
-| 码率               | Bit-rate                        |
-| 参数               | Parameter(s)                      |
-| 还原度             | High quality (bitrate)<sup name="a2">[2](#f2)</sup>   / Visual similarity / Transparency               |
-| 压制               | Encoding                        |
-| 原生分辨率         | Native resolution               |
-| 轻微               | (adj.) Mild / Slight / A bit   |
-| 适当               | (adj.) Some / Moderate         |
-| 较强               | (adj.) Significant / Strong    |
-| 算法               | Algorithm                       |
-| 内封字幕             | Embedded subtitles                       |
-| 内嵌字幕             | Embedded hardcoded subtitles                       | 
-| 屏幕字字幕               | Forced subtitle                       |
-| 无障碍音轨               | Audio description                       |
+| 暗场（影片的低亮度场景）| Dark scene(s)                   |
+| 交错                  | Interlaced                      |
+| 码率                  | Bitrate                         |
+| 参数                  | Parameter(s)                    |
+| 还原度                | High quality (bitrate)<sup name="a2">[2](#f2)</sup>   / Visual similarity / Transparency     |
+| 压制                  | Encoding                       |
+| 原生分辨率             | Native resolution              |
+| 轻微                  | (adj.) Mild / Slight / A bit   |
+| 适当                  | (adj.) Some / Moderate         |
+| 较强                  | (adj.) Significant / Strong    |
+| 算法                  | Algorithm                      |
+| 内封字幕              | Embedded subtitles             |
+| 内嵌字幕              | Embedded hardcoded subtitles   | 
+| 屏幕字字幕            | Forced subtitles               |
+| 无障碍音轨            | Audio description              |
 
 <b name="f1">1</b> 这里的平面指一幅图像中在空间上变化比较缓和的部分，如大块的填充色，与线条相对；
 如果是视频格式里的所谓平面，则是 plane，例如亮度平面 luma plane，色度平面（有两个）chroma planes；
@@ -49,7 +50,6 @@
 | 噪点                | Noise / Grain<sup name="a1">[2](#f2)</sup>|
 | 彩色噪点 / 色度噪点 | Chroma noise / chroma grain    |
 | 烂边 / 蚊噪         | DCT ringing  / DCT noise      |
-| 交错                | Interlaced                    |
 | 拉丝 / 横纹         | Combing                       |
 | 缟缟                | Stripes                       |
 | 鬼影                | Blending / Ghosting           |
@@ -58,7 +58,7 @@
 | 色度锯齿            | Chroma aliasing               |
 | 色度偏移            | Chroma shift                  |
 | 色度溢出            | Chroma bleeding               |
-| 重复场              | Duplicate field               |
+| 重复场              | Duplicated fields             |
 | 晃动                | Global motion / Pan           |
 | 彩虹                | Rainbow                       |
 | 点状斑纹            | Dot-crawl                     |
@@ -74,8 +74,8 @@
 | 抗锯齿         | Anti-aliasing                                  |
 | 去晕轮         | De-ringing / De-haloing                        |
 | 去色块         | De-blocking                                    |
-| 降噪           | Denoising / Degrain                          |
-| 反交错         | Deinterlacing                                 |
+| 降噪           | Denoising / Degrain                            |
+| 反交错         | Deinterlacing                                  |
 | 场匹配         | Field-matching                                 |
 | 反交卷过带     | Inverse Telecine (IVTC)                        |
 | 去缟缟         | De-combing                                     |
@@ -84,7 +84,7 @@
 | 处理色度锯齿   | Chroma anti-aliasing                           |
 | 修复色度偏移   | (v.) Fix chroma shift                          |
 | 修复色度溢出   | (v.) Fix chroma bleeding                       |
-| 解决重复场     | (v.) Fix duplicate field                       |
+| 解决重复场     | (v.) Fix duplicated fields                     |
 | 修复晃动       | De-pan                                         |
 | 修复彩虹       | De-rainbow                                     |
 | 去除点状斑纹   | Dot-crawl removal                              |
@@ -99,4 +99,4 @@
 | 拉升（分辨率） | Upscaling                                      |
 | 可还原式拉升   | Revertible upscaling                           |
 | 缩回（分辨率） | Descaling                                      |
-| 还原 – 再重构 / 逆向拉伸重构  | Descaling and reconstruction                   |
+| 还原 – 再重构 / 逆向拉伸重构  | Descaling and reconstruction     |

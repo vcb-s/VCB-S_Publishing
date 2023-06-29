@@ -159,7 +159,7 @@ CD: XXXX@XXXX(xxxx.com, xxxx.com) <!-- 注意放流者链接已由中括号改�
     Embedded official ENG + JPN PGS.<br />
     <!-- 如果有内封、内嵌或外挂音轨，应该指出 -->
     部分剧集内封评论音轨。内封评论音轨。外挂 FLAC 5.1 + Headphone X。<br />
-    Certain episodes embed commentary tracks. Embedded commentary track. MKA contains FLAC 5.1 + Headphone X.<br />
+    Certain episodes contain commentary tracks. Embedded commentary track. MKA contains FLAC 5.1 + Headphone X.<br />
     <!-- 注意区分使用 内封 和 内嵌。内封指挂载在视频文件内的信息内容，可以提取出来；内嵌则一般不可提取。多数情况下 MKV 内的字幕和音轨都为内封，MP4 内为内嵌 -->
     <br /><!-- 空行 -->
 

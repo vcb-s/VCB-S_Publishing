@@ -201,6 +201,11 @@ CD: XXXX@XXXX(xxxx.com, xxxx.com) <!-- 注意放流者链接已由中括号改�
     VCB-Studio 已不再保证收集作品相关 CD 和扫图资源，详情请参见 <a href="https://vcb-s.com/archives/14331">https://vcb-s.com/archives/14331</a>。<br />
     Please refer to <a href="https://vcb-s.com/archives/14331">https://vcb-s.com/archives/14331</a> for more information about that VCB-Studio will no longer guarantee to include relevant CDs and scans.<br />
     <br /><!-- 空行 -->
+
+    本组（不）定期招募新成员。详情请参见 <a href="https://vcb-s.com/archives/16986">https://vcb-s.com/archives/16986</a>。<br />
+    Please refer to <a href="https://vcb-s.com/archives/16986">https://vcb-s.com/archives/16986</a> about information of our (un)scheduled recruitment.<br />
+    <br /><!-- 空行 -->
+
     有关 TSDM 合购区的详情请参见 <a href="https://www.tsdm39.com/forum.php?mod=viewthread&amp;tid=879923">https://www.tsdm39.com/forum.php?mod=viewthread&amp;tid=879923</a>。<br />
     Please refer to <a href="https://www.tsdm39.com/forum.php?mod=viewthread&amp;tid=879923">https://www.tsdm39.com/forum.php?mod=viewthread&amp;tid=879923</a> for more information about jointly purchased music.<br />
     <br /><!-- 空行 -->

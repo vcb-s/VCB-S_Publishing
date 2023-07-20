@@ -358,7 +358,7 @@ https://nyaa.si/view/xxxxxxx
 <!-- 可选的发布吐槽也可以在这里 -->
 好想看到会动的瑠衣酱 XXXXXXXXX ...
 
-<!-- 在这里放一个 `more` 标签用来指示 WordPress 做摘要分隔 -->
+<!-- 在这里放一个如下所示的 `more` 标签用来指示 WordPress 做摘要分隔 -->
 <!--more-->
 
 <!-- 如果非常喜欢这部番的某首音乐，可以上传音乐并将播放器放在这里 -->
@@ -368,7 +368,8 @@ https://nyaa.si/view/xxxxxxx
 好想看到会动的瑠衣老婆 XXXXXXXXX ...
 
 <!-- 如果是 Reseed 项目，在编辑器中选择 `info` box 添加说明 -->
-[box style="info"] 重发修正：<!-- 放在 box 下第一行 -->
+[box style="info"]
+重发修正：
 <!-- 然后空一行 -->
 1. xxx 2. xxx [/box]
 

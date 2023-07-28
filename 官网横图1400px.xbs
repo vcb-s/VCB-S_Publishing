@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><XnView_script version="1.0" name="官网横图1400px">
+    <Resize mode="5" width="1400" height="600" unit="0" ratio="true" orientation="false" enlarge="0" resample="6" gamma_correct="false"/>
+    <Output folder="" filename="{Filename}_{DstWidth}" case="0" startIndex="1" format="WEBP">
+        <Options overwrite="1" orgDate="false" keepMeta="true" keepICC="false" keepFolder="false" keepParentFolder="false" keepExtension="false" delOrg="false" multipage="false" allPages="false" openExplorer="false" beep="true" openBrowser="false" clearItems="true"/>
+        <WEBP method="0" quality="90" filesize="128" compress="6" strength="20" sharpness="6" preset="0"/>
+    </Output>
+</XnView_script>

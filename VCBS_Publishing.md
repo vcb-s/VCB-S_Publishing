@@ -61,14 +61,13 @@ CD: XXXX@XXXX(xxxx.com, xxxx.com) <!-- 注意放流者链接已由中括号改�
 
 1. 从 <https://rzi.xeonse.com/torrents.php> 上对应的种子页面点击 `下载种子[原始文件]` 取得公网种子，请注意检查公网种子名没有 [R21] 标识，并且不含 r21 密钥。
 2. 主要成品的 mediainfo \
-   a. 如果是单纯的新片或重发，随意选择一集正片 \
-   b. 如果是新片打包旧片的合集，选择新片部分的随意一集正片 \
-   c. 如果重发的成品文件有改动，选择改动过的一集正片
-
-3. 如果是新番，应该有总监提供的吐槽和截图，并翻译为英文版
-4. 如果是重发，应该有整理组提供的修正说明，并翻译为英文版
-5. 一份横向长度 800px 的 WebP 格式海报图，并已经上传至图床 <http://img.2222.moe/vcbs>
-6. 一份横向长度 1400px 且横纵比 2:1 左右的 WebP 格式海报图
+   a. 如果是单纯的新片或重发，选择第一集正片； \
+   b. 如果是新片打包旧片的合集，选择新片部分的第一集正片； \
+   c. 如果重发的成品文件有改动，选择改动过的一集正片。
+3. 如果是新番，应该有总监提供的吐槽和截图，并翻译为英文版。
+4. 如果是重发，应该有整理组提供的修正说明，并翻译为英文版。
+5. 一份横向长度 800px 的 WebP 格式海报图，并已经上传至图床 <http://img.2222.moe/vcbs>。
+6. 一份横向长度 1400px 且横纵比 2:1 左右的 WebP 格式海报图。
 
 #### 画质吐槽和截图
 
@@ -78,7 +77,7 @@ CD: XXXX@XXXX(xxxx.com, xxxx.com) <!-- 注意放流者链接已由中括号改�
 
 #### 海报图的详细说明
 
-海报图片可以使用动画的官方宣传海报图片，如果你对这部作品有爱的话也可以夹带私货，自选一张喜欢的图片，不过要注意尺度，不要使用 NSFW 的图片。例如，可以在待发布动画的 anidb.net 页面上找到官方海报图片，通过 Google 图片搜索找到分辨率更高的相同图片。无论采用哪种图片，有效分辨率不能过小（如果图片分辨率过低，可以尝试用 waifu2x 放大）。确认图片目视足够清晰，且没有明显压缩导致的画质劣化和严重偏色。图片可以适当裁剪以保证横纵比例合适，并缩放为横向 800 px，保存为质量 90 的 WebP 格式。推荐使用 XnConvert 软件进行处理，下载导入该项目的两个 xbs 后缀文件即可一键出图。
+海报图片可以使用动画的官方宣传海报图片，如果你对这部作品有爱的话也可以夹带私货，自选一张喜欢的图片，不过要注意尺度，不要使用 NSFW 的图片。例如，可以在待发布动画的 anidb.net / themoviedb.org 页面上找到官方海报图片，通过 Google 图片搜索找到分辨率更高的相同图片。无论采用哪种图片，有效分辨率不能过小（如果图片分辨率过低，可以尝试用 waifu2x 放大）。确认图片目视足够清晰，且没有明显压缩导致的画质劣化和严重偏色。图片可以适当裁剪以保证横纵比例合适，并缩放为横向 800 px，保存为质量 90 的 WebP 格式。推荐使用 XnConvert 软件进行处理，下载导入该项目的两个 xbs 后缀文件即可一键出图。
 
 ---
 
@@ -130,17 +129,17 @@ CD: XXXX@XXXX(xxxx.com, xxxx.com) <!-- 注意放流者链接已由中括号改�
 
 现在开始填写正文，无论什么情况都会有接下来这个 **`主体段`**。点击 `<>`，将下面框内的代码复制进去，然后进行编辑和增减。
 
-注 1：`<!-->` 内的文字为解释说明，不会出现在正文中
-注 2：如果本月有开坑计划，招人计划等，请在海报图后、正文前添加，格式可以参考以前的发布
-注 3: 请保留教程中每一部分的 `<p></p>` 标签。这些标签起到分隔不同内容板块的作用
-注 4: 无论何时，复制粘贴时请注意换行的问题（尤其是截图之间的空行）
-注 5: 不要在可视化界面下编辑，可能会产生各种意料之外的问题。如果不小心做了修改，请在代码或纯文本编辑界面下清空内容重新复制模板代码
+- 注 1：`<!-->` 内的文字为解释说明，不会出现在正文中。生成最终待发布的 html 文件时请删除所有注释内容。
+- 注 2：如果本月有开坑计划，招人计划等，请在海报图后、正文前添加，格式可以参考以前的发布。
+- 注 3：请保留教程中每一部分的 `<p></p>` 标签。这些标签起到分隔不同内容板块的作用。
+- 注 4：无论何时，复制粘贴时请注意换行的问题（尤其是截图之间的空行）。
+- 注 5：不要在可视化界面下编辑，可能会产生各种意料之外的问题。如果不小心做了修改，请在代码或纯文本编辑界面下清空内容重新复制模板代码。
 
 ```html
 <p>
     <!-- 整个主体段都在一个 <p></p> 内，段中没有 <hr>，断行请用 <br> = Ctrl/Shift + Enter -->
     <!-- 海报图 800px WebP 格式 -->
-    <img src="http://img.2222.moe/images/2018/08/05/JustBecause_800px.webp" alt="JustBecause_800px.webp" /><br />
+    <img src="http://img.2222.moe/images/2018/08/05/JustBecause_800.webp" alt="JustBecause_800.webp" /><br />
     <br /><!-- 空行 --><!-- 空行的原因是 ACG.RIP 进行 HTML->BBCode 时没有处理好 <p></p> -->
 
     <!-- 片名和编码 -->
@@ -222,11 +221,14 @@ CD: XXXX@XXXX(xxxx.com, xxxx.com) <!-- 注意放流者链接已由中括号改�
     <!-- 最后放截图 -->
     Comparison (right click on the image and open it in a new tab to see the full-size one)<br />
     Source________________________________________________Encode <br />
-    <!-- 这里两对图只是例子 -->
+    <!-- 这里两对图只是例子，以实际项目中官方提供的对比图 url 为准 -->
+    <!-- 如果有多个季度的比较图，则在每一季之前添加如下 <strong> 标签进行标注 -->
+    <!-- <strong> Season 1 </strong><br /><br /> -->
     <a href="http://img.2222.moe/images/2018/07/03/3768.png"><img src="http://img.2222.moe/images/2018/07/03/3768s.png" /></a> <a href="http://img.2222.moe/images/2018/07/03/3768v.png"><img src="http://img.2222.moe/images/2018/07/03/3768s.png" /></a><br />
     <br /><!-- 每组截图之间空行 -->
     <a href="http://img.2222.moe/images/2018/07/03/6647.png"><img src="http://img.2222.moe/images/2018/07/03/6647s.png" /></a> <a href="http://img.2222.moe/images/2018/07/03/6647v.png"><img src="http://img.2222.moe/images/2018/07/03/6647s.png" /></a><br />
     ...
+    <!-- <strong> Season 2 </strong><br /><br /> -->
 </p>
 ```
 
@@ -309,12 +311,12 @@ https://nyaa.si/view/xxxxxxx
 
 发布后若发现有错漏需要修改，请务必尽快登陆各个网站修改对应页面。
 
--   bangumi.moe: 页面标题右侧 `X` 的左侧有一个编辑按钮
--   share.acgnx.se: 页面顶部 `發佈資源` 是登陆入口。登陆完毕后在右侧 `管理自己發佈的資源` 或者 `聯盟發佈資源` 里找到发布的页面进行编辑
--   acgnx.se: 页面顶部 `Control Panel` 是登陆入口。登陆完毕后在右侧 `My Torrent List` 或者 `Union Resources` 里找到发布的页面进行编辑
--   acg.rip: 页面右上角绿色按钮登陆，之后点击蓝色头像，在弹出菜单选择 `VCB-Studio`，在列表中找到发布的页面进行编辑
--   share.dmhy.org: 页面右上角登入，从 `個人中心 > 管理聯盟發佈資源` 找到发布的页面进行编辑
--   nyaa.si: 页面右上角登陆，找到自己发布的页面后在标题左侧点击编辑按钮进行编辑
+-   bangumi.moe: 页面标题右侧 `X` 的左侧有一个编辑按钮。
+-   share.acgnx.se: 页面顶部 `發佈資源` 是登陆入口。登陆完毕后在右侧 `管理自己發佈的資源` 或者 `聯盟發佈資源` 里找到发布的页面进行编辑。
+-   acgnx.se: 页面顶部 `Control Panel` 是登陆入口。登陆完毕后在右侧 `My Torrent List` 或者 `Union Resources` 里找到发布的页面进行编辑。
+-   acg.rip: 页面右上角绿色按钮登陆，之后点击蓝色头像，在弹出菜单选择 `VCB-Studio`，在列表中找到发布的页面进行编辑。
+-   share.dmhy.org: 页面右上角登入，从 `個人中心 > 管理聯盟發佈資源` 找到发布的页面进行编辑。
+-   nyaa.si: 页面右上角登陆，找到自己发布的页面后在标题左侧点击编辑按钮进行编辑。
 
 ---
 
@@ -371,11 +373,12 @@ https://nyaa.si/view/xxxxxxx
 [box style="info"]
 重发修正：
 <!-- 然后空一行 -->
-1. xxx 2. xxx [/box]
+1. xxx 2. xxx
+[/box]
 
 <!-- 然后是下载链接，在编辑器中选择 `download` box -->
-[box style="download"] 10-bit 1080p HEVC (Reseed)
-<!-- 在 box 下第一行紧跟着标注画质，位深，编码，如果是 Reseed 记得标 Reseed -->
+[box style="download"]
+10-bit 1080p HEVC (Reseed)<!-- 在 box 下第一行紧跟着标注画质，位深，编码，如果是 Reseed 记得标 Reseed -->
 <!-- 这里空行，然后下一行开始点击 `link` 粘贴刚才发布公网各站的链接，注意勾选 `在新标签页中打开链接` -->
 <a href="https://bangumi.moe/torrent/xxxxxxxx" rel="noopener" target="_blank">https://bangumi.moe/torrent/xxxxxxxx</a>
 <!-- 每个链接之间空行 -->
@@ -391,7 +394,8 @@ https://nyaa.si/view/xxxxxxx
 [/box]
 
 <!-- 其它画质版本同理 -->
-[box style="download"] 8-bit 720p HEVC
+[box style="download"]
+8-bit 720p HEVC
 
 <a href="https://bangumi.moe/torrent/xxxxxxxx" rel="noopener" target="_blank">https://bangumi.moe/torrent/xxxxxxxx</a>
 
@@ -411,8 +415,11 @@ https://nyaa.si/view/xxxxxxx
 <hr />
 
 <!-- 部分旧页面上有大量不知道该怎么处理的吐槽段，可以放在这里 -->
-旧吐槽 [box style="download"] 10-bit 1080p AVC
+旧吐槽
+
 <!-- 用 `del` 按钮划掉旧链接，如果遇到度盘链接或 720p 链接可以直接删除 -->
+[box style="download"]
+10-bit 1080p AVC
 <del><a href="https://bangumi.moe/torrent/xxxxxxxx" rel="noopener" target="_blank">https://bangumi.moe/torrent/xxxxxxxx</a></del>
 
 <del><a href="https://share.acgnx.se/show-xxxxxxxxxxxxxxx.html" rel="noopener" target="_blank">https://share.acgnx.se/show-xxxxxxxxxxxxxxx.html</a>
@@ -433,6 +440,7 @@ Image Credit: <a href="http://xxxxx" rel="noopener" target="_blank">who</a>
 <label for="medie-info-switch" class="btn btn-inverse-primary" title="展开MediaInfo">MediaInfo</label>
 <!-- 这里空一行 -->
 <pre class="js-medie-info-detail medie-info-detail" style="display: none;">此处粘贴 R21 上提供的 MediaInfo</pre>
+<!-- mediaInfo 每一行顶格，不要留缩进 -->
 ```
 
 完成正文后来到页面右侧：\
@@ -455,7 +463,7 @@ Reseed 项目可能合并了主站上其它多个页面的内容。 \
 
 然后前往 `作品项目列表` 页面，点击 `Google Sheet` 打开在线表格，进行如下两步操作：
 
-1. 在 `Intended` 页面里，找到并删除（如果有）刚发布的项目
+1. 在 `Intended` 页面里，找到并删除（如果有）刚发布的项目；
 2. 在`Completed` 页面里，在最顶端的项目之上插入新的一行，并填写：
 
 |                   项目 | 内容                                                                                                  |

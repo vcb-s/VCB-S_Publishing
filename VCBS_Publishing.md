@@ -288,7 +288,7 @@ CD: XXXX@XXXX(xxxx.com, xxxx.com) <!-- 注意放流者链接已由中括号改�
 
 **`Remake`** <u>仅当</u> 该项目是从 nyaa 上的另一个版本派生时勾选，Reseed 重发项目不勾选。
 
-**`Description`** 使用 html 至 markdown 转换器转换 BANGUMI.MOE 上的内容，在 `Preview`中检查格式是否正确（注意空行）。
+**`Description`** 使用 html 至 markdown 转换器转换 BANGUMI.MOE 上的内容，注意对比图使用 trello 里提供的 md 格式，在 `Preview`中检查格式是否正确。
 
 ### 公网发布收尾
 

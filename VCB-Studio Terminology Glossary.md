@@ -96,7 +96,8 @@
 | 可控性锐化     | Controlled sharpening                          |
 | 主动性锐化     | Active sharpening                              |
 | 过度锐化       | Over sharpening                                |
-| 拉升（分辨率） | Upscaling                                      |
+| 缩放           | Scaling                                        |
+| 拉伸 / 拉升（分辨率） | Upscaling                                |
 | 可还原式拉升   | Revertible upscaling                           |
 | 缩回（分辨率） | Descaling                                      |
 | 还原 – 再重构 / 逆向拉伸重构  | Descaling and reconstruction     |

@@ -62,7 +62,7 @@
 | 晃动                | Global motion / Pan           |
 | 彩虹                | Rainbow                       |
 | 点状斑纹            | Dot-crawl                     |
-| 过度柔化            | Over blurring                 |
+| 过度柔化            | Over-blurring                 |
 
 <b name="f2">2</b> 作为画风特点的噪点是 Grain，一般颗粒度较大；作为瑕疵的噪点是 Noise，不确定时可统一使用 Noise。
 
@@ -75,6 +75,7 @@
 | 去晕轮         | De-ringing / De-haloing                        |
 | 去色块         | De-blocking                                    |
 | 降噪           | Denoising / Degrain                            |
+| 亮度自适应降噪  | Luma-adaptive denoising
 | 反交错         | Deinterlacing                                  |
 | 场匹配         | Field-matching                                 |
 | 反交卷过带     | Inverse Telecine (IVTC)                        |
@@ -95,7 +96,7 @@
 | 补偿性锐化     | Contra-sharpening<br />Compensatory sharpening |
 | 可控性锐化     | Controlled sharpening                          |
 | 主动性锐化     | Active sharpening                              |
-| 过度锐化       | Over sharpening                                |
+| 过度锐化       | Over-sharpening                                |
 | 缩放           | Scaling                                        |
 | 拉伸 / 拉升（分辨率） | Upscaling                                |
 | 可还原式拉升   | Revertible upscaling                           |

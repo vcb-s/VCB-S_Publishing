@@ -23,6 +23,7 @@
 | 色度平面（图像格式）     | chroma plane(s)                                              |
 | 码率                     | bitrate                                                      |
 | 参数                     | parameter(s)                                                 |
+| 清晰度                   | sharpness                                                    |
 | 还原度                   | (high) quality/bitrate <br> visual similarity / transparency |
 | 压制                     | encoding                                                     |
 | 原生分辨率               | native resolution                                            |
@@ -35,40 +36,46 @@
 | 屏幕字字幕               | forced subtitles                                             |
 | 无障碍音轨               | audio description                                            |
 
-| 瑕疵                | Artifacts                 |
-| ------------------- | ------------------------- |
-| 色带                | banding / color banding   |
-| 锯齿                | aliasing                  |
-| 晕轮 / 振铃         | haloing / ringing         |
-| 色块                | blocking / macroblocking  |
-| 噪点                | noise / grain [^3]        |
-| 彩色噪点 / 色度噪点 | chroma noise/grain        |
-| 烂边 / 蚊噪         | DCT ringing / DCT noise   |
-| 拉丝 / 横纹         | combing                   |
-| 缟缟                | combing                   |
-| 鬼影                | blending / ghosting       |
-| 颜色越界            | overflow and/or underflow |
-| 色度色带            | chroma banding            |
-| 色度锯齿            | chroma aliasing           |
-| 色度偏移            | chroma shift              |
-| 色度溢出            | chroma bleeding           |
-| 重复场              | duplicated fields         |
-| 晃动                | global motion             |
-| 彩虹                | rainbow                   |
-| 点状斑纹            | dot-crawl                 |
-| 过度柔化            | over-blurring             |
-| 过度锐化            | over-sharpening           |
+| 瑕疵                       | Artifacts                            |
+| -------------------------- | ------------------------------------ |
+| 色带                       | banding / color banding              |
+| 锯齿                       | aliasing                             |
+| 晕轮 / 振铃                | haloing / ringing                    |
+| 色块                       | blocking / macroblocking             |
+| 噪点                       | noise / grain [^3]                   |
+| 彩色噪点 / 色度噪点        | chroma noise/grain                   |
+| 静态噪点 / 静噪            | static noise                         |
+| 动态噪点 / 动噪 / 时域噪点 | dynamic noise                        |
+| 烂噪 / 压碎的噪点          | grain blocking / badly encoded grain |
+| 烂边 / 蚊噪                | DCT ringing / DCT noise              |
+| 拉丝 / 横纹                | combing                              |
+| 缟缟                       | combing                              |
+| 鬼影                       | blending / ghosting                  |
+| 颜色越界                   | overflow and/or underflow            |
+| 色度色带                   | chroma banding                       |
+| 色度锯齿                   | chroma aliasing                      |
+| 色度偏移                   | chroma shift                         |
+| 色度溢出                   | chroma bleeding                      |
+| 重复场                     | duplicated fields                    |
+| 晃动                       | global motion                        |
+| 彩虹                       | rainbow                              |
+| 点状斑纹                   | dot-crawl                            |
+| 模糊 / 糊                  | blurring                             |
+| 过度柔化                   | over-blurring                        |
+| 过度锐化                   | over-sharpening                      |
 
 | 处理方法                     | Pre-processing                                 |
 | ---------------------------- | ---------------------------------------------- |
 | 去色带                       | de-banding                                     |
+| 抖动                         | dithering                                      |
 | 抗锯齿                       | anti-aliasing                                  |
 | 去晕轮                       | de-ringing / de-haloing                        |
 | 去色块                       | de-blocking                                    |
 | 降噪                         | denoising / degrain                            |
 | 亮度自适应降噪               | luma-adaptive denoising                        |
 | 反交错                       | deinterlacing                                  |
-| 场匹配                       | field-matching                                 |
+| 拆场                         | field separation                               |
+| 场匹配                       | field matching                                 |
 | 反交卷过带                   | inverse telecine / IVTC                        |
 | 去缟缟                       | de-combing                                     |
 | 去鬼影                       | de-blending / ghost removal                    |
@@ -83,6 +90,10 @@
 | 补偿性锐化                   | contra-sharpening <br> compensatory sharpening |
 | 可控性锐化                   | controlled sharpening                          |
 | 主动性锐化                   | active sharpening                              |
+| 润线                         | line smoothing                                 |
+| 收线                         | line thinning                                  |
+| 描线 / 描黑                  | line darkening                                 |
+| 连线                         | line connecting                                |
 | 缩放                         | scaling                                        |
 | 拉伸 / 拉升（分辨率）        | upscaling                                      |
 | 可还原式拉升                 | revertible upscaling                           |
@@ -94,4 +105,4 @@
 
 [^2]: 视频图像一般均为 YCbCr（有时习惯写为 YUV）格式，其中 Y 平面为亮度（luma）平面，Cb 和 Cr 平面为色度（chroma）平面。
 
-[^3]: 作为画面风格的噪点是 grain，一般颗粒度较大；noise 则也可以指代瑕疵，不确定时可统一使用 noise。
+[^3]: 作为画面风格的噪点是 grain，一般颗粒度较大；noise 则也可以指代瑕疵，一般可统一使用 noise。

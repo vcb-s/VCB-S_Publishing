@@ -46,7 +46,7 @@
 | 色带                | Banding / Colour banding      |
 | 锯齿                | Aliasing                      |
 | 晕轮 / 振铃         | Haloing / Ringing             |
-| 色块                | Blocking / MacroBlock         |
+| 色块                | Blocking / MacroBlocking      |
 | 噪点                | Noise / Grain<sup name="a1">[2](#f2)</sup>|
 | 彩色噪点 / 色度噪点 | Chroma noise / chroma grain    |
 | 烂边 / 蚊噪         | DCT ringing  / DCT noise      |

@@ -10,7 +10,7 @@
 
 | 一般词汇                 | General                                                      |
 | ------------------------ | ------------------------------------------------------------ |
-| 原盘                     | source / Blu-ray source / BD source                          |
+| 原盘 / 蓝光原盘          | source / Blu-ray source / BD source                          |
 | 画风                     | art style                                                    |
 | 线条                     | lines / lines and curves                                     |
 | 平面（相对于线条 [^1]）  | flat area                                                    |
@@ -21,6 +21,9 @@
 | 平面（图像格式 [^2]）    | plane                                                        |
 | 亮度平面（图像格式）     | luma plane                                                   |
 | 色度平面（图像格式）     | chroma plane(s)                                              |
+| 频率                     | frequency                                                    |
+| 空间的 / 空域            | spatial (domain)                                             |
+| 时间的 / 时域            | temporal (domain)                                            |
 | 码率                     | bitrate                                                      |
 | 参数                     | parameter(s)                                                 |
 | 清晰度                   | sharpness                                                    |
@@ -30,6 +33,8 @@
 | 轻微                     | (adj.) mild / slight / a bit                                 |
 | 适当                     | (adj.) some / moderate                                       |
 | 较强                     | (adj.) significant / strong                                  |
+| 细腻                     | (adj.) fine                                                  |
+| 粗糙                     | (adj.) coarse                                                |         
 | 算法                     | algorithm                                                    |
 | 内封字幕                 | embedded subtitles                                           |
 | 内嵌字幕                 | hardcoded subtitles                                          | 
@@ -42,7 +47,7 @@
 | 锯齿                       | aliasing                             |
 | 晕轮 / 振铃                | haloing / ringing                    |
 | 色块                       | blocking / macroblocking             |
-| 噪点                       | noise / grain [^3]                   |
+| 噪点 / 噪声                | noise / grain [^3]                   |
 | 彩色噪点 / 色度噪点        | chroma noise/grain                   |
 | 静态噪点 / 静噪            | static noise                         |
 | 动态噪点 / 动噪 / 时域噪点 | dynamic noise                        |
@@ -51,6 +56,7 @@
 | 拉丝 / 横纹                | combing                              |
 | 缟缟                       | combing                              |
 | 鬼影                       | blending / ghosting                  |
+| 闪烁 / 抖动                | flickering / jittering               |
 | 颜色越界                   | overflow and/or underflow            |
 | 色度色带                   | chroma banding                       |
 | 色度锯齿                   | chroma aliasing                      |
@@ -67,7 +73,7 @@
 | 处理方法                     | Pre-processing                                 |
 | ---------------------------- | ---------------------------------------------- |
 | 去色带                       | de-banding                                     |
-| 抖动                         | dithering                                      |
+| 抖动（避免色带等瑕疵的手段） | dithering                                      |
 | 抗锯齿                       | anti-aliasing                                  |
 | 去晕轮                       | de-ringing / de-haloing                        |
 | 去色块                       | de-blocking                                    |

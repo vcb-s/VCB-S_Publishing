@@ -165,7 +165,7 @@ CD: XXXX@XXXX(xxxx.com, xxxx.com) <!-- 注意放流者链接已由中括号改�
     <!-- 首先感谢合作字幕组（如有）-->
     这个项目与 <strong>中文组名</strong> 合作，感谢他们精心制作的字幕。<br />
     <!-- 英文紧跟中文，不空行 -->
-    This project is in cooperation with <strong>English Group Name</strong>. Thanks to them for elaborating Chinese subtitles.<br />
+    This project is in collaboration with <strong>English Group Name</strong>. Thanks to them for elaborating Chinese subtitles.<br />
     <br /><!-- 空行 -->
 
     <!-- 总监吐槽，只带在高画质版本 -->

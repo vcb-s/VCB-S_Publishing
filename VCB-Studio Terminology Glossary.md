@@ -12,6 +12,7 @@
 | ------------------------ | ------------------------------------------------------------ |
 | 原盘 / 蓝光原盘          | source / Blu-ray source / BD source                          |
 | 画风                     | art style                                                    |
+| 作画                     | sakuga                                                       |
 | 线条                     | lines / lines and curves                                     |
 | 平面（相对于线条 [^1]）  | flat area                                                    |
 | 纹理                     | texture                                                      |
@@ -53,6 +54,7 @@
 | 动态噪点 / 动噪 / 时域噪点 | dynamic noise                        |
 | 烂噪 / 压碎的噪点          | grain blocking / badly encoded grain |
 | 烂边 / 蚊噪                | DCT ringing / DCT noise              |
+| 码率不足 / 欠码            | lack of / insufficient bitrate       |
 | 拉丝 / 横纹                | combing                              |
 | 缟缟                       | combing                              |
 | 鬼影                       | blending / ghosting                  |

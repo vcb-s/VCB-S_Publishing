@@ -53,7 +53,7 @@
 | 静态噪点 / 静噪            | static noise                         |
 | 动态噪点 / 动噪 / 时域噪点 | dynamic noise                        |
 | 烂噪 / 压碎的噪点          | grain blocking / badly encoded grain |
-| 烂边 / 蚊噪                | DCT ringing / DCT noise              |
+| 烂边（线条边缘）/ 蚊噪     | DCT ringing / DCT noise              |
 | 码率不足 / 欠码            | lack of / insufficient bitrate       |
 | 拉丝 / 横纹                | combing                              |
 | 缟缟                       | combing                              |

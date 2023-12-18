@@ -259,6 +259,7 @@ CD: XXXX@XXXX(xxxx.com, xxxx.com) <!-- 注意放流者链接已由中括号改�
 <p>
     <!-- 然后是重发计划说明 -->
     本次发布来自 VCB-Studio 旧作重发计划。我们会不定期重发过去发布过的合集，或为补充做种，或为修正制作错漏，或为整合系列合集。<br />
+    This is a release of VCB-Studio Reseed Project. We would re-upload pervious torrents from time to time, to resurrect old torrents with few seeders, to correct errors/omissions, or to batch separate releases that belong to a same series. <br />
     <br /><!-- 空行 -->
 </p>
 <hr />

@@ -47,8 +47,6 @@ CD: XXXX@XXXX(xxxx.com, xxxx.com) <!-- 注意放流者链接已由中括号改�
 [/code]
 ```
 
-根据论坛方面的建议，所有 TSDM 的资源都需要将域名改为 `tsdm39.com`，例如将 `https://www.tsdm39.net/forum.php` 改为 `https://www.tsdm39.com/forum.php`。请在发布前留意检查。
-
 接下来在 `类型` 里给该任务分配分流组，`质量` 一栏为选填内容，可以忽略，`内容` 选择 `公网[允许公网tracker]`，然后勾选 `匿名发布`。检查无误后点击 `发布`。
 
 成功发布后在分流组以 @全体成员 的方式通知任务，同时使用自动下载的种子进行一段时间的初始做种。当有其他分流组员下载完成并开始做种时便可停止。
@@ -203,10 +201,6 @@ CD: XXXX@XXXX(xxxx.com, xxxx.com) <!-- 注意放流者链接已由中括号改�
 
     本组（不）定期招募新成员。详情请参见 <a href="https://vcb-s.com/archives/16986">https://vcb-s.com/archives/16986</a>。<br />
     Please refer to <a href="https://vcb-s.com/archives/16986">https://vcb-s.com/archives/16986</a> about information of our (un)scheduled recruitment.<br />
-    <br /><!-- 空行 -->
-
-    有关 TSDM 合购区的详情请参见 <a href="https://www.tsdm39.com/forum.php?mod=viewthread&amp;tid=879923">https://www.tsdm39.com/forum.php?mod=viewthread&amp;tid=879923</a>。<br />
-    Please refer to <a href="https://www.tsdm39.com/forum.php?mod=viewthread&amp;tid=879923">https://www.tsdm39.com/forum.php?mod=viewthread&amp;tid=879923</a> for more information about jointly purchased music.<br />
     <br /><!-- 空行 -->
 
     <!-- 然后跟教程 -->
@@ -423,7 +417,7 @@ https://nyaa.si/view/xxxxxxx
 10-bit 1080p AVC
 <del><a href="https://bangumi.moe/torrent/xxxxxxxx" rel="noopener" target="_blank">https://bangumi.moe/torrent/xxxxxxxx</a></del>
 
-<del><a href="https://share.acgnx.se/show-xxxxxxxxxxxxxxx.html" rel="noopener" target="_blank">https://share.acgnx.se/show-xxxxxxxxxxxxxxx.html</a>
+<del><a href="https://share.acgnx.se/show-xxxxxxxxxxxxxxx.html" rel="noopener" target="_blank">https://share.acgnx.se/show-xxxxxxxxxxxxxxx.html</a></del>
 
 <del><a href="https://www.acgnx.se/show-xxxxxx.html" rel="noopener" target="_blank">https://www.acgnx.se/show-xxxxxx.html</a></del>
 

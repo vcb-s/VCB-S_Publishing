@@ -181,7 +181,16 @@ CD: XXXX@XXXX(xxxx.com, xxxx.com) <!-- 注意放流者链接已由中括号改�
 
 ```html
 <p>
-    <!-- 首先是来源感谢，小体积版不带，不再写出自 NYAA 的资源 -->
+    <!-- 首先是制作感谢，如无则用片子里的角色名代替 -->
+    感谢所有参与制作者 / Thanks to our participating members: <br>
+    总监 / Script: XXX <br>
+    压制 / Encode: XXX <br>
+    整理 / Collate: XXX <br>
+    发布 / Upload: XXX <br>
+    分流 / Seed: VCB-Studio CDN 分流成员 <br>
+    <br><!-- 空行 -->
+
+    <!-- 其次是来源感谢，小体积版不带，不再写出自 NYAA 的资源 -->
     感谢所有资源提供者 / Thanks to all resource providers: <br />
     BD: XXXX@XXXX... <br />
     SCAN: XXXX@XXXX... <br />
@@ -242,6 +251,15 @@ CD: XXXX@XXXX(xxxx.com, xxxx.com) <!-- 注意放流者链接已由中括号改�
 </p>
 <hr />
 <p>
+    <!-- 粘贴原种的制作名单，没有则只写 trello 上的。 -->
+    感谢所有参与制作者 / Thanks to our participating members: <br>
+    总监 / Script: XXX <br>
+    压制 / Encode: XXX <br>
+    整理 / Collate: XXX <br>
+    发布 / Upload: XXX <br>
+    分流 / Seed: VCB-Studio CDN 分流成员 <br>
+    <br><!-- 空行 -->
+
     <!-- 粘贴原种的感谢内容（如果有），如果 reseed 有新的资源提供者也加在这里。如果都没有则不带这一段。 -->
     感谢所有资源提供者 / Thanks to all resource providers: <br />
     BD: XXXX@XXXX... <br />

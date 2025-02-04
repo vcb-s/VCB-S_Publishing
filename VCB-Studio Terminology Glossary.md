@@ -60,6 +60,7 @@
 | 鬼影                       | blending / ghosting                  |
 | 闪烁 / 抖动                | flickering / jittering               |
 | 颜色越界                   | overflow and/or underflow            |
+| 亮度越界                   | luma overflow / underflow           |
 | 色度色带                   | chroma banding                       |
 | 色度锯齿                   | chroma aliasing                      |
 | 色度偏移                   | chroma shift                         |

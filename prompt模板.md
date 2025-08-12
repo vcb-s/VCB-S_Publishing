@@ -72,7 +72,6 @@
 >处理方法	Pre-processing
 >后期处理  PP
 >去色带	de-banding
->抖动（避免色带等瑕疵的手段）	dithering
 >抗锯齿	anti-aliasing
 >去晕轮	de-ringing / de-haloing
 >去色块	de-blocking
